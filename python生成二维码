@@ -1,4 +1,7 @@
+[排版编辑](https://blog.csdn.net/u012067966/article/details/50736647 )
+
 生成二维码+图片，可制作小惊喜
+
 ```python
 import qrcode
 from PIL import Image
@@ -54,5 +57,6 @@ if __name__ == '__main__':
         """
           像太阳一样
         """
-              , 'my.png')```
-···
+              , 'my.png')"""
+```
+
