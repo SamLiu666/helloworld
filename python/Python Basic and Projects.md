@@ -41,3 +41,8 @@ In python, tkinter - development kit
 Steps: import what we need, create the gui window, write down the code, do the circulation
 ## Pygame module
 This module is designed for the development of multimedia applications such as video games, based on [SDL](https://baike.baidu.com/item/SDL/224181?fr=aladdin)
+
+# File and Exception
+[file system](https://baike.baidu.com/item/%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/4827215?fr=aladdin) manages files
+[reference](https://www.runoob.com/python3/python3-file-methods.html)
+[HTTP knowledge](http://www.ruanyifeng.com/blog/2016/08/http.html)
