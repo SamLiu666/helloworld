@@ -1,15 +1,20 @@
-from socket import socket
+#!/usr/bin/env python
 
+import socket
 
-def main():
-    # 1.创建套接字对象默认使用IPv4和TCP协议
-    client = socket()
-    # 2.连接到服务器(需要指定IP地址和端口)
-    client.connect(('192.168.1.107', 6789))
-    # 3.从服务器接收数据
-    print(client.recv(1024).decode('utf-8'))
-    client.close()
+TCP_IP = '127.0.0.1'
+TCP_PORT = 62
+BUFFER_SIZE = 20  # Normally 1024, but we want fast response
 
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.bind((TCP_IP, TCP_PORT))
+s.listen(1)
 
-if __name__ == '__main__':
-    main()
+conn, addr = s.accept()
+print 'Connection address:', addr
+while 1:
+     data = conn.recv(BUFFER_SIZE)
+     if not data: break
+     print "received data:", data
+     conn.send(data)  # echo
+conn.close()
