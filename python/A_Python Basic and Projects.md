@@ -92,7 +92,23 @@ class Account(object):
 ```
 How to choose:
 One is to consider the cost of task and the exchange of task.
-Second is about the type of taks, which are compute-intensive and I/O intensive.
-For coupute-intensive tasts cost cpu that is handled by language C. Scripting language like python is good for I/O intensive task. 
+Second is about the type of task, which are compute-intensive and I/O intensive.
+For compute-intensive task cost CPU that is handled by language C. Scripting language like python is good for I/O intensive task. 
 The single-threaded + asynchronous I/O programming model is called coroutine,[example](https://blog.csdn.net/qq_42672770/article/details/103798443)
 
+## Network Programming
+### TCP/IP 
+The three elements of network are syntax, semantics, and timing
+[Network](https://github.com/SamLiu666/Python-100-Days/blob/master/Day01-15/14.%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%E5%92%8C%E7%BD%91%E7%BB%9C%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91.md) [HTTP contract](http://www.ruanyifeng.com/blog/2016/08/http.html)
+![image-20200229171548469](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200229171548469.png)
+HTTP  JSON request_module 
+
+## Picture and File 
+Operate picture
+名称		RGBA值			名称		RGBA值   A for pixel
+White	(255, 255, 255, 255)	Red			(255, 0, 0, 255)
+Green	(0, 255, 0, 255)		Blue		(0, 0, 255, 255)
+Gray	(128, 128, 128, 255)	Yellow		(255, 255, 0, 255)
+Black	(0, 0, 0, 255)			Purple		(128, 0, 128, 255
+module--pillow
+Excel PDF WORD
