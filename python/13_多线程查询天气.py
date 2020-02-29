@@ -1,6 +1,9 @@
 import requests,threading
 """添加改动"""
-"""以多线程的方式获取苏州、南京、长沙、娄底、福州的天气"""
+"""以多线程的方式获取苏州、南京、长沙、娄底、福州的天气
+线程中资源问题，可用锁的方式解决"""
+
+
 def get_weather(city):
 
     req = requests.get('http://wthrcdn.etouch.cn/weather_mini?city=%s' % city)
