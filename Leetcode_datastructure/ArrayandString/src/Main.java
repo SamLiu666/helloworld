@@ -42,5 +42,6 @@ public class Main {
         // 9. delete the last element
         v1.remove(v1.size() - 1);
     }
+
 }
 
