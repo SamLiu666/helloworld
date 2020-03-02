@@ -40,3 +40,13 @@ SSL (Secure Sockets Layer)
 
 --   shift+Tab  4 left  characters
 
+
+
+# Module
+
+1. download data - urllib / requests / aiohttp。
+2. parser data - re / lxml / beautifulsoup4（bs4）/ pyquery。
+3. store - pymysql / sqlalchemy / peewee/ redis / pymongo。
+4. Generate digital signature - hashlib。
+5. Serialization and compression - pickle / json / zlib。
+6. scheduler - 进程（multiprocessing） / 线程（threading） / 协程（coroutine）

@@ -1,31 +1,24 @@
-from urllib.parse import urljoin
-
-import re
+from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 import requests
 
-from bs4 import BeautifulSoup
 
-"""获取知乎上问题"""
-def main():
-    headers = {'user-agent': 'Baiduspider'}
-    proxies = {
-        'http': 'http://122.114.31.177:808' #代理
-    }
-    base_url = 'https://www.zhihu.com/'
-    seed_url = urljoin(base_url, 'explore')
-    resp = requests.get(seed_url,
-                        headers=headers,
-                        proxies=proxies)
+def main0():
+    resp = requests.get('https://v.taobao.com/v/content/live?catetype=704&from=taonvlang')
     soup = BeautifulSoup(resp.text, 'lxml')
-    href_regex = re.compile(r'^/question')
-    link_set = set()
-    for a_tag in soup.find_all('a', {'href': href_regex}):
-        if 'href' in a_tag.attrs:
-            href = a_tag.attrs['href']
-            full_url = urljoin(base_url, href)
-            link_set.add(full_url)
-    print('Total %d question pages found.' % len(link_set), link_set)
+    for img_tag in soup.select('img[src]'):
+        print(img_tag.attrs['src'])
+
+def main():
+    #解析动态内容
+    driver = webdriver.Chrome()
+    driver.get('https://v.taobao.com/v/content/live?catetype=704&from=taonvlang')
+    soup = BeautifulSoup(driver.page_source, 'lxml')
+    for img_tag in soup.body.select('img[src]'):
+        print(img_tag.attrs['src'])
 
 
 if __name__ == '__main__':
+    main0()
     main()
