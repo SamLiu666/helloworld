@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 def main():
     headers = {'user-agent': 'Baiduspider'}
     proxies = {
-        'http': 'http://122.114.31.177:808'
+        'http': 'http://122.114.31.177:808' #代理
     }
     base_url = 'https://www.zhihu.com/'
     seed_url = urljoin(base_url, 'explore')

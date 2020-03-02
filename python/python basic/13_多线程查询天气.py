@@ -5,8 +5,8 @@ import requests,threading
 
 
 def get_weather(city):
-
-    req = requests.get('http://wthrcdn.etouch.cn/weather_mini?city=%s' % city)
+    """完整URL：http://open.weather.com.cn/data/?areaid=""&type=""&date=""&appid=""&key=".urlencode($key);"""
+    req = requests.get('http://wthrcdn.etouch.cn/weather_mini?city=%s' % city) # 中国天气接口
     dic_city = req.json() # 转换为字典
 
     city_data = dic_city.get('data')
