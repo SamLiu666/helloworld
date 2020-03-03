@@ -7,7 +7,7 @@ params: 额外参数 字典或字节流格式，可选
 **kwargs: 十二个控制访问参数，比如可以自定义header
 返回: 一个Response对象
 """
-headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36'}
+
 
 def create_headers():
     # 1.自定义一个header头文件
@@ -38,6 +38,8 @@ def know_response():
 def get_url_content(url):
     # url要抓取的网页链接
     try:
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36'}
         res = requests.get(url, headers=headers)
         # 响应未成功，触发异常
         res.raise_for_status()
