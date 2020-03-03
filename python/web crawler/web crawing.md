@@ -50,3 +50,15 @@ SSL (Secure Sockets Layer)
 4. Generate digital signature - hashlib。
 5. Serialization and compression - pickle / json / zlib。
 6. scheduler - 进程（multiprocessing） / 线程（threading） / 协程（coroutine）
+
+
+
+## Request
+
+Get the url and response
+
+## BeautifulSoup
+
+The bs4 library turns the web file into a soup type, In fact, the bs4 library is a library for parsing, traversing, maintaining, and "tag trees."
+
+The bs4 library reformats the HTML source code, Thus, it is convenient for us to operate on the nodes, labels, attributes and so on.
