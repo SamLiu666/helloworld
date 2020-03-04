@@ -14,10 +14,10 @@ def get_url(url):
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36'}
         res = requests.get(url, headers=headers)
         # 响应未成功，触发异常
-        res.raise_for_status()
+        res.raise_for_status
         # 正确的编码方式
-        res.encoding = res.apparent_encoding
-        # print(res.encoding)
+        # res.encoding = res.apparent_encoding
+        print(res.encoding)
         print(res.status_code)
         return res.text
     except:
@@ -75,5 +75,6 @@ def main(base_url, deep):
 
 if __name__ == '__init__':
     base_url = 'https://tieba.baidu.com/f?ie=utf-8&kw=%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6&fr=search'
-    deep = 0
-    main(base_url,deep)
+    # deep = 0
+    # main(base_url,deep)
+    print(get_url(base_url))

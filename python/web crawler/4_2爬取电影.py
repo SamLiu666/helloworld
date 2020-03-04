@@ -61,6 +61,7 @@ def main():
     url = 'http://dianying.2345.com/top/'
     get_content(url)
 
+
 movie = xlwt.Workbook(encoding='utf-8', style_compression=0)  # 建立工作区
 sheet = movie.add_sheet('电影排行榜', cell_overwrite_ok=True)  # 表名
 # 第一行第n列名称
@@ -72,6 +73,7 @@ sheet.write(0, 3, '连接')
 sheet.write(0, 4, '简介')
 
 if __name__ == "__main__":
+    "列表形式保存"
     main()
 
 movie.save('movie.xls')
