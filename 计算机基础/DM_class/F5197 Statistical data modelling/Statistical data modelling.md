@@ -40,3 +40,6 @@ cmd + ' jupyter notebook  ' code  : start jupyter, use monash account log in, an
 Use jupyter nootbook open file
 
 **Practice** :https://lms.monash.edu/mod/url/view.php?id=6645910
+
+[Alexandria Module 1 Section 1: R Programming 1URL](https://lms.monash.edu/mod/url/view.php?id=6645910)
+
