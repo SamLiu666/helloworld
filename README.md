@@ -6,8 +6,5 @@ This project is used to record the learning process which is about computer scie
 ## Algorithms and Data Structure
 ## Database System
 
-[Typora](https://blog.csdn.net/lzykevin/article/details/83276555) --markdown file
+## Algorithm 4th
 
-<!--a--> 		**Bold** 	*Italics*		<u>Underline</u>
-
-![picture](C:\Users\liu\Desktop\经济学.png)
