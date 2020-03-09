@@ -81,9 +81,36 @@ class Mystack:
         return len(self.stack) == 0
 
 
-class problem:
+# 树的定义，构造树
+class TreeNode:
 
-    def pro_20(self, s):
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
+class Tree_problem:
+
+    # 617合并两个二叉树
+    def mergeTrees(self, t1:TreeNode, t2:TreeNode):
+        # t1 = TreeNode
+        # t2 = TreeNode
+        if(not t1): return t2
+        if(not t2): return t1
+        t1.val = t1.val + t2.val
+        t1.left = self.mergeTrees(t1.left,t2.left)
+        t1.right = self.mergeTrees(t1.right,t2.right)
+        return t1
+
+    # 104 二叉树的最大深度
+    def maxDepth(self, root:TreeNode):
+
+        if root is None:
+            return 0
+
+        return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
+
 
 
 
