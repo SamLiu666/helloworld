@@ -1,5 +1,5 @@
 
-public class Sort {
+public class ElementarySort {
 
     // 判断v，u 的大小，返回 v<u 的判断结果，顺序:第一个<第二个为真
     private static boolean less(Comparable v, Comparable w){
@@ -51,13 +51,28 @@ public class Sort {
         return count;
     }
 
+    //3.希尔排序ShellSort，插入排序变形为 3*n个 距离移动
+    public static void ShellSort(Comparable[] a){
+        int N = a.length; int h = 1;
+        while (h < N/3)   h = 3*h+1;  //实验得3个距离较好
+        while ( h>=1 ){
+            for (int i=h; i<N; i++){
+                for (int j=i; j>=h && less(a[j], a[j-h]); j-=h)
+                    exch(a, j, j-h);
+            }
+            h = h/3;
+        }
+        printA(a);
+    }
 
     // 主程序运行
     public static void main(String[] args){
         Comparable[] a = {2,4,5,3,1,11,7};
+        Comparable[] s = {'a', 'm', 'z', 'c', 'b'};
         printA(a);
-//        SelectionSort(a);     //选择排序
+        //SelectionSort(s);     //选择排序
         int count = InsertionSort(a);   //插入排序，并记录交换次数
         System.out.println("交换次数： " + count);
+        ShellSort(s);
     }
 }
