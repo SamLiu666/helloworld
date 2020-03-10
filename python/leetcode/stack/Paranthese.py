@@ -105,13 +105,21 @@ class Tree_problem:
 
     # 104 二叉树的最大深度
     def maxDepth(self, root:TreeNode):
-
         if root is None:
             return 0
-
         return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
 
+    # 226 翻转二叉树
+    def invertTree(self, root: TreeNode):
+        if root:
+            root.left, root.right = self.invertTree(root.right), self.invertTree(root.left)
+            return root
 
+
+    def swap(self, t1, t2):
+        temp = t1
+        t1 = t2
+        t2 = temp
 
 
 s = solution()
