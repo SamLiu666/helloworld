@@ -27,9 +27,9 @@ class solution:
             flag += 1 if char == '(' else -1
         return "".join(res)
 
-
+"""栈实现队列,FIFO，用两个栈"""
 class Myqueue:
-    """栈实现队列,FIFO，用两个栈"""
+
     def __init__(self):
         self.stack1 = []
         self.stack2 = []
@@ -53,10 +53,9 @@ class Myqueue:
 
     def empty(self):
         return not self.stack1
-
-
+"""用队列实现栈"""
 class Mystack:
-    """用队列实现栈"""
+
     def __init__(self):
         self.stack = collections.deque([])
 
@@ -115,13 +114,23 @@ class Tree_problem:
             root.left, root.right = self.invertTree(root.right), self.invertTree(root.left)
             return root
 
+    # p 543 二叉树直径问题，二叉树遍历问题
+    def diameteroftree(self, root:TreeNode):
+        self.ans = 1
+        def depth(node):
+            if not node: return 0
+            L = depth(node.left)
+            R = depth(node.right)
+            self.ans = max(self.ans, L+R+1)
+            return max(L, R) + 1
 
-    def swap(self, t1, t2):
-        temp = t1
-        t1 = t2
-        t2 = temp
+        depth(root)
+        return self.ans - 1
 
 
 s = solution()
-stest = "(())())"
-print(s.pro_1021(stest), s.pro1021_1(stest))
+tr = Tree_problem()
+test = TreeNode
+print(tr.diameteroftree(test))
+# stest = "(())())"
+# print(s.pro_1021(stest), s.pro1021_1(stest))
