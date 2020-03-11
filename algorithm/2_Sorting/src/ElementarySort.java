@@ -70,9 +70,11 @@ public class ElementarySort {
         Comparable[] a = {2,4,5,3,1,11,7};
         Comparable[] s = {'a', 'm', 'z', 'c', 'b'};
         printA(a);
-        //SelectionSort(s);     //选择排序
-        int count = InsertionSort(a);   //插入排序，并记录交换次数
-        System.out.println("交换次数： " + count);
-        ShellSort(s);
+/*       SelectionSort(s);     //选择排序
+       int count = InsertionSort(a);   //插入排序，并记录交换次数
+       System.out.println("交换次数： " + count);
+       ShellSort(s);*/
+        Merge.sort_down(a);
+        printA(a);
     }
 }

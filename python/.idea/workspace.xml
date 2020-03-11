@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a307c096-451e-4bd1-9d02-853d4e754e27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/array_linkedlist/array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/array_linkedlist/linkedlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/craw_fund.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/fund2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/2_Sorting/sorting.md" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/2_Sorting/sorting.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/stack/Paranthese.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/stack/Paranthese.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/0 获取文件名.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/0 获取文件名.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/stack/Paranthese.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="2599">
               <caret line="113" selection-start-line="113" selection-end-line="115" selection-end-column="23" />
             </state>
           </provider>
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/array_linkedlist/array.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="164">
-              <caret line="60" column="48" lean-forward="true" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+              <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -49,8 +49,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="230">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/craw_fund.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="999">
+              <caret line="60" column="68" lean-forward="true" selection-start-line="60" selection-start-column="68" selection-end-line="60" selection-end-column="68" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/fund2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="60" column="91" selection-start-line="60" selection-start-column="91" selection-end-line="60" selection-end-column="91" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,17 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/0 获取文件名.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python basic/11_file_operation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="322">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -126,20 +141,21 @@
         <option value="$PROJECT_DIR$/web crawler/test.py" />
         <option value="$PROJECT_DIR$/web crawler/4_2爬取电影.py" />
         <option value="$PROJECT_DIR$/database/preorderTraversal.py" />
-        <option value="$PROJECT_DIR$/project/0 获取文件名.py" />
         <option value="$PROJECT_DIR$/leetcode/array/easy.py" />
         <option value="$PROJECT_DIR$/leetcode/stack/Paranthese.py" />
         <option value="$PROJECT_DIR$/leetcode/array_linkedlist/linkedlist.py" />
         <option value="$PROJECT_DIR$/project/test.py" />
         <option value="$PROJECT_DIR$/leetcode/array_linkedlist/array.py" />
+        <option value="$PROJECT_DIR$/project/0 获取文件名.py" />
+        <option value="$PROJECT_DIR$/project/craw_fund.py" />
+        <option value="$PROJECT_DIR$/project/fund2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="522" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="521" />
     <option name="width" value="1135" />
-    <option name="height" value="1040" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -147,6 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,7 +207,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.array">
+  <component name="RunManager" selected="Python.fund2">
     <configuration name="0 获取文件名" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,48 +245,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/0 获取文件名.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="4 爬取电影" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web crawler" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web crawler/4 爬取电影.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Paranthese" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/stack" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/stack/Paranthese.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,7 +274,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="easy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="craw_fund" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -308,11 +282,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/array/easy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/craw_fund.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fund2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/fund2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -365,11 +360,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fund2" />
+        <item itemvalue="Python.craw_fund" />
+        <item itemvalue="Python.0 获取文件名" />
         <item itemvalue="Python.array" />
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.easy" />
-        <item itemvalue="Python.Paranthese" />
-        <item itemvalue="Python.0 获取文件名" />
       </list>
     </recent_temporary>
   </component>
@@ -387,15 +382,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="418" y="19" width="908" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21559633" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16644649" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33016303" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32719547" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37252125" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43285716" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -410,9 +404,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/0_Sent many emails.py" />
-    <entry file="file://$PROJECT_DIR$/7_字符串_列表_字典类型操作.py" />
-    <entry file="file://$PROJECT_DIR$/8_class_example_advance.py" />
     <entry file="file://$PROJECT_DIR$/8_class.py" />
     <entry file="file://$PROJECT_DIR$/10_gui_programming.py" />
     <entry file="file://$PROJECT_DIR$/a.txt" />
@@ -607,30 +598,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python basic/11_file_operation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python basic/13_多线程查询天气.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/0 获取文件名.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/stack/Paranthese.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="2599">
           <caret line="113" selection-start-line="113" selection-end-line="115" selection-end-column="23" />
         </state>
       </provider>
@@ -642,19 +612,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/test.py">
+    <entry file="file://$PROJECT_DIR$/python basic/13_多线程查询天气.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="1196">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/array_linkedlist/array.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
-          <caret line="60" column="48" lean-forward="true" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python basic/11_file_operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="21" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/0 获取文件名.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/craw_fund.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="60" column="68" lean-forward="true" selection-start-line="60" selection-start-column="68" selection-end-line="60" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/fund2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="60" column="91" selection-start-line="60" selection-start-column="91" selection-end-line="60" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
