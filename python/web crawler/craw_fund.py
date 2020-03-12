@@ -6,6 +6,8 @@ from datetime import datetime
 import matplotlib
 import matplotlib.pyplot as plt
 
+""" https://mp.weixin.qq.com/s/HU9V-AKDQy2amniktTVLGQ 参考连接 """
+
 header = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',}
 url = 'http://fund.eastmoney.com/js/fundcode_search.js?v=20200301111634'
