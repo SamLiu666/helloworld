@@ -25,3 +25,13 @@ class solution:
         for i in range(2,n+1):
             dp.append(dp[i-1] + dp[i-2])
         return dp[n]
+
+    # p 53 字串最大和
+    def maxSuAbbray(self, nums:List[int]):
+        if not nums: return 0
+        cursum, maxsum = nums[0], nums[0]
+        for num in nums[1:]:
+            cursum = max(num, cursum + num)
+            maxsum = max(maxsum, cursum)
+        return maxsum
+

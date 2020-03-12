@@ -76,6 +76,9 @@ class solution:
                 res.append(i+1)
         return res
 
+
+
+
 s=solution()
 # a = [0,1,0,3,12]
 #测试
@@ -84,6 +87,7 @@ s=solution()
 # s = solution()
 # print(s.p136(a))
 # c, b = 1, 2
+# print(c,b)
 # e, f = b, c
 # g, h = c, b
 # print(e, f)

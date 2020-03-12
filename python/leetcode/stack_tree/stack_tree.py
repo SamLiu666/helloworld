@@ -1,8 +1,10 @@
 from matplotlib import collections
+
 """1、有效括号问题
 2、用栈实现队列，FIFO，用两个栈实现
 3、用队列实现栈，FILO，用collections 库实现
 4、有效括号"""
+
 
 class solution:
 
@@ -10,8 +12,8 @@ class solution:
         """输入n个括号，输出成对的括号"""
         res, par = [], 0
         for c in s:
-            if c=='(' and par > 0: res.append(c)
-            if c==')' and par > 1: res.append(c)
+            if c == '(' and par > 0: res.append(c)
+            if c == ')' and par > 1: res.append(c)
             par += 1 if c == '(' else -1
         return "".join(res)
 
@@ -27,14 +29,17 @@ class solution:
             flag += 1 if char == '(' else -1
         return "".join(res)
 
+
 """栈实现队列,FIFO，用两个栈"""
+
+
 class Myqueue:
 
     def __init__(self):
         self.stack1 = []
         self.stack2 = []
 
-    def push(self, x:int):
+    def push(self, x: int):
         # 入栈
         while self.stack1:
             self.stack2.append(self.stack1.pop())
@@ -53,7 +58,11 @@ class Myqueue:
 
     def empty(self):
         return not self.stack1
+
+
 """用队列实现栈"""
+
+
 class Mystack:
 
     def __init__(self):
@@ -92,18 +101,18 @@ class TreeNode:
 class Tree_problem:
 
     # 617合并两个二叉树
-    def mergeTrees(self, t1:TreeNode, t2:TreeNode):
+    def mergeTrees(self, t1: TreeNode, t2: TreeNode):
         # t1 = TreeNode
         # t2 = TreeNode
-        if(not t1): return t2
-        if(not t2): return t1
+        if (not t1): return t2
+        if (not t2): return t1
         t1.val = t1.val + t2.val
-        t1.left = self.mergeTrees(t1.left,t2.left)
-        t1.right = self.mergeTrees(t1.right,t2.right)
+        t1.left = self.mergeTrees(t1.left, t2.left)
+        t1.right = self.mergeTrees(t1.right, t2.right)
         return t1
 
     # 104 二叉树的最大深度
-    def maxDepth(self, root:TreeNode):
+    def maxDepth(self, root: TreeNode):
         if root is None:
             return 0
         return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
@@ -115,17 +124,31 @@ class Tree_problem:
             return root
 
     # p 543 二叉树直径问题，二叉树遍历问题
-    def diameteroftree(self, root:TreeNode):
+    def diameteroftree(self, root: TreeNode):
         self.ans = 1
+
         def depth(node):
             if not node: return 0
             L = depth(node.left)
             R = depth(node.right)
-            self.ans = max(self.ans, L+R+1)
+            self.ans = max(self.ans, L + R + 1)
             return max(L, R) + 1
 
         depth(root)
         return self.ans - 1
+
+    # p 101 对称树，检测一个二叉树是否对称
+    def isSymmetric(self, root: TreeNode):
+
+        def isTrue(l: TreeNode, r: TreeNode):
+            if (l == None and r == None): return True
+            if (l == None or r == None): return False
+            if (l.val == r.val):
+                if (isTrue(l.left, r.right) and isTrue(l.right, r.left)):
+                    return True
+            return False
+
+        return isTrue(root, root)
 
 
 s = solution()
