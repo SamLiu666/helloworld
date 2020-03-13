@@ -45,10 +45,28 @@ public class Quick {
         return j;
     }
 
+    //quick 3-way partitioning
+    private static void quick3sort(Comparable[] a, int lo, int hi){
+        if (hi <= lo) return;
+        int lt = lo, i = lo+1, gt = hi;
+        Comparable v = a[lo];
+        while (i <= gt)
+        {
+            int cmp = a[i].compareTo(v);
+            if (cmp < 0) exch(a, lt++, i++);
+            else if (cmp > 0) exch(a, i, gt--);
+            else i++;
+        } // Now a[lo..lt-1] < v = a[lt..gt] < a[gt+1..hi].
+        sort(a, lo, lt - 1);
+        sort(a, gt + 1, hi);
+    }
+
     public static void main(String[] args) {
         Comparable[] a = {2, 4, 5, 3, 1, 11, 7};
         Comparable[] s = {'a', 'm', 'z', 'c', 'b'};
         printA(a);printA(s);
-        sort(a);sort(s);
+        sort(a);
+        quick3sort(s,0,s.length-1);
+        printA(s);
     }
 }
