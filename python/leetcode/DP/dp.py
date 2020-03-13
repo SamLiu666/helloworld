@@ -35,3 +35,36 @@ class solution:
             maxsum = max(maxsum, cursum)
         return maxsum
 
+    # p 198 利润最大化
+    def robhouse(self, nums:List):
+        #  运行时间过长
+        # def robwho(nums, n):
+        #     if n<0: return 0
+        #     return max(robwho(nums, n-1), robwho(nums, n-2) + nums[n])
+        # return robwho(nums, len(nums) -1)
+        last, now = 0, 0
+        for i in nums:
+            temp = last
+            last = now
+            now = max(temp + i, now)
+        # last, now = now, max(last + i, now)   # 一行实现
+        return now
+
+# last now
+# 0 0
+# 0 1
+# 0 1
+# 1 2
+# 1 2
+# 2 4
+# 2 4
+# 4 4
+
+# 0 0
+# 1 1
+# 1 1
+# 3 3
+# 3 3
+# 6 6
+# 6 6
+# 7 7
