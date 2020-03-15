@@ -1,3 +1,6 @@
+from typing import List
+
+
 class ListNode:
     def __init__(self, x):
         self.val = x
@@ -39,3 +42,18 @@ class solution:
             slow = slow.next
             fast = fast.next.next
         return True
+
+    # 160 两个链表的交点
+    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
+        if headA == None or headB == None:  return None
+        #双指针解法
+        pointa = headA
+        pointb = headB
+        while pointa is not pointb:
+            if pointa is None:  pointa = headB
+            else:   pointa = pointa.next
+            pointb = headA if pointb is None else pointb.next
+        return pointa
+
+    # 234 对称链表
+

@@ -76,7 +76,34 @@ class solution:
                 res.append(i+1)
         return res
 
+    # 找最短字串
+    def findUnsortedSubarray(self, nums: List[int]) -> int:
+        sortedNums = sorted(nums)
+        start, end = -1, -1
+        i=0
+        while(i<len(nums)):
+            if nums[i] != sortedNums[i]:
+                start = i
+                break
+            i+=1
 
+        if start==-1: return 0  #已经排序完成
+        j = len(nums) - 1
+        while j>0:
+            if nums[j] != sortedNums[j]:
+                end = j
+                break
+            j -= 1
+        return end - start +1
+
+    # 338 找出数组中1的个数，并二进制输出结果
+    def countBits(self, num: int) -> List[int]:
+        res = [0]
+        for i in range(1, num+1):
+            # >> 右移动运算符
+            res.append(res[i>>1] + (i&1))
+            print(res)
+        return res
 
 
 s=solution()
@@ -92,6 +119,7 @@ s=solution()
 # g, h = c, b
 # print(e, f)
 # print(g, h)
-print(s.p449([4,3,2,7,8,2,3,1]))
+# print(s.p449([4,3,2,7,8,2,3,1]))
+s.countBits(5)
 
 
