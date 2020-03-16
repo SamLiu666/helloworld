@@ -36,3 +36,14 @@ comparator 接口 去使用任何数据类型
 
 #### Up-Bottom
 
+## Heap definitions
+
+Definition. A binary tree is heap-ordered if the key in each node is larger than or
+equal to the keys in that node’s two children (if any).
+
+A binary heap is a collection of keys arranged in a complete heap-ordered
+binary tree, represented in level order in an array (not using the first entry).
+
+Bottom-up reheapify ( swim). Top-down reheapify (sink).
+
+![image-20200315174855304](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200315174855304.png)
