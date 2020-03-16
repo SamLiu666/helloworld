@@ -105,6 +105,31 @@ class solution:
             print(res)
         return res
 
+    # 406 给数组排队
+    def reconstructQueue(self, people):
+        if not people: return None
+
+        peopledic, height, res = {}, [], []
+
+        for i in range(len(people)):
+            p = people[i]
+            if p[0] in peopledic:
+                peopledic[p[0]] += (p[1], i)
+            else:
+                peopledic[p[0]] = [(p[1], i)]
+                height += p[0]
+
+        height.sort()
+        for h in height[::-1]:
+            peopledic[h].sort()
+            for p in peopledic[h]:
+                res.insert(p[0], people[p[1]])
+
+        return res
+
+    def dailyTemperatures(self, T: List[int]) -> List[int]:
+
+
 
 s=solution()
 # a = [0,1,0,3,12]
