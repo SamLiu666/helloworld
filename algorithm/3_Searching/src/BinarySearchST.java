@@ -1,5 +1,6 @@
 import java.util.Collection;
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 import java.util.Queue;
 
 public class BinarySearchST<Key extends Comparable<Key>, Value> {
@@ -414,8 +415,8 @@ public class BinarySearchST<Key extends Comparable<Key>, Value> {
         };
         if (lo.compareTo(hi) > 0) return queue;
         for (int i = rank(lo); i < rank(hi); i++)
-            queue.enqueue(keys[i]);
-        if (contains(hi)) queue.enqueue(keys[rank(hi)]);
+            queue.add(keys[i]);
+        if (contains(hi)) queue.add(keys[rank(hi)]);
         return queue;
     }
 

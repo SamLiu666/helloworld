@@ -145,7 +145,7 @@ public class SequentialSearchST<Key, Value> {
 
         System.out.println(st);
         for (int i = 0; i<6; i++) {
-            System.out.print(" " + st.get(i+1));
+            System.out.print(  " " + st.get(i+1));
         }
     }
 }
