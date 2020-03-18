@@ -128,10 +128,43 @@ class solution:
         return res
 
     def dailyTemperatures(self, T: List[int]) -> List[int]:
+        pass
 
+    def countSubstrings(self, s:str):
+        L, r = len(s), 0
+        for i in range(L):
+            for a, b in [(i,i), (i,i+1)]:
+                while a>=0 and b<L and s[a] == s[b]:
+                    r += (b-a)//2
+        return r
 
+    # 238 输出除自己外数组内所有数的乘积
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+        length = len(nums)
+        L, R, product = [0]*length, [0]*length, [0]*length
+        # 计算左、右边乘积
+        L[0] = 1
+        for i in range(1,length):
+            L[i] = nums[i-1] * L[i-1]
+        print(L)
+        R[length-1] = 1
+        # for j in reversed(range(length-1)):
+        #     R[j] = nums[j+1] * R[j+1]
+        for j in range(length-1-1,-1,-1):
+            R[j] = R[j+1] * nums[j+1]
+        print(R)
+        for i in range(length):
+            product[i] = L[i] * R[i]
+
+        return product
 
 s=solution()
+nums = [1,2,3,4]
+print(s.productExceptSelf(nums))
+# for j in reversed(range(5)):
+#     print(j)
+# for j in range(5-1, -1, -1):
+#     print(j)
 # a = [0,1,0,3,12]
 #测试
 # print(s.p283(a), s.p169(a))
@@ -145,6 +178,8 @@ s=solution()
 # print(e, f)
 # print(g, h)
 # print(s.p449([4,3,2,7,8,2,3,1]))
-s.countBits(5)
-
+# s.countBits(5)
+# for i in range(3):
+#     for a, b in [(i,i), (i,i+1)]:
+#         print(a, b)
 

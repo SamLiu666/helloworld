@@ -1,0 +1,16 @@
+import  time
+scale = 50
+print("执行开始".center(scale//2, "-"))
+start = time.perf_counter()
+
+for i in range(scale+1):
+    a = '*' * 1
+    b = '.' * (i)
+    c = (i/scale) * 100
+    c = int(c)
+    dur = time.perf_counter() - start
+    print("\r{: 3.0f}% [{}->{}]{:.2f}s".format(c,a,b,dur),end="")
+    # print(c,a,b,dur, end= " \n")
+    time.sleep(0.1)
+
+print("执行结束".center(scale//2, "-"))
