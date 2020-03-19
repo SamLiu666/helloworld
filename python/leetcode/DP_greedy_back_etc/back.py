@@ -48,6 +48,27 @@ class solution:
         back()
         return res
 
+    # Iteratively
+    def subsets(self, nums):
+        res = []
+        self.dfs(sorted(nums), 0, [], res)
+        return res
+    def dfs(self, nums, index, path, res):
+        res.append(path)
+        print(path)
+        for i in range(index, len(nums)):
+            self.dfs(nums, i+1, path + [nums[i]], res)
+
+    def rotate(self, A):
+        A[:] = zip(*A[::-1])
+        return A
+
 s = solution()
 nums = [1,2,3]
-print(s.permute_2(nums), s.generateParenthesis(3), sep='\n')
+n = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+]
+# print(s.permute_2(nums), s.generateParenthesis(3), sep='\n')
+print(s.rotate(n))

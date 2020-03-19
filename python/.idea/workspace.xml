@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a307c096-451e-4bd1-9d02-853d4e754e27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web crawler/0 打印进度条.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/4_DFS_BFS/src/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/算法第四版.md" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/算法第四版.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array_linkedlist/array.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/array_linkedlist/array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array_linkedlist/hashtable.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/array_linkedlist/hashtable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web crawler/4 爬取电影.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/DP_greedy_back_etc/back.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/DP_greedy_back_etc/back.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,16 +28,16 @@
         <entry file="file://$PROJECT_DIR$/web crawler/0 打印进度条.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/array_linkedlist/array.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="258">
-              <caret line="153" column="37" lean-forward="true" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="37" />
+              <caret line="153" column="37" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="37" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
                 <element signature="e#1692#1931#0" />
@@ -47,11 +46,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/DP_greedy_back_etc/back.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/array_linkedlist/hashtable.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+            <state relative-caret-position="989">
+              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -136,18 +144,18 @@
         <option value="$PROJECT_DIR$/project/testeverything.py" />
         <option value="$PROJECT_DIR$/leetcode/stack_tree/tree.py" />
         <option value="$PROJECT_DIR$/leetcode/DP/back.py" />
-        <option value="$PROJECT_DIR$/leetcode/DP_greedy_back_etc/back.py" />
         <option value="$PROJECT_DIR$/web crawler/4 爬取小说.py" />
         <option value="$PROJECT_DIR$/web crawler/4 爬取电影.py" />
         <option value="$PROJECT_DIR$/web crawler/0 打印进度条.py" />
         <option value="$PROJECT_DIR$/leetcode/array_linkedlist/hashtable.py" />
         <option value="$PROJECT_DIR$/leetcode/array_linkedlist/array.py" />
+        <option value="$PROJECT_DIR$/leetcode/DP_greedy_back_etc/back.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-38" />
-    <option name="y" value="60" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="534" />
+    <option name="y" value="66" />
     <option name="width" value="1419" />
     <option name="height" value="936" />
   </component>
@@ -157,6 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,7 +215,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,28 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.array">
-    <configuration name="0 获取文件名" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/0 获取文件名.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.back">
     <configuration name="0 打印进度条" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -318,27 +305,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4 爬取电影" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web crawler" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\东蒙 人工智能课程\cs learning git\python\web crawler\0 打印进度条.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="4 爬取小说" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -360,6 +326,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="4 爬取电影" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web crawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\东蒙 人工智能课程\cs learning git\python\web crawler\0 打印进度条.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="array" type="PythonConfigurationType" factoryName="Python">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -373,6 +360,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/array_linkedlist/array.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="back" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/DP_greedy_back_etc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/DP_greedy_back_etc/back.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -425,8 +433,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.back" />
         <item itemvalue="Python.hashtable" />
-        <item itemvalue="Python.0 打印进度条" />
         <item itemvalue="Python.0_定时弹网页_播放音乐" />
         <item itemvalue="Python.13_多线程查询天气" />
       </list>
@@ -446,15 +454,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-38" y="60" width="1419" height="936" extended-state="0" />
-    <editor active="true" />
+    <frame x="534" y="66" width="1419" height="936" extended-state="1" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14192614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3254364" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32294264" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3042394" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4775561" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -718,13 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/DP_greedy_back_etc/back.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/stack_tree/minstack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -756,6 +756,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web crawler/0 打印进度条.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/array_linkedlist/hashtable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/13_多线程查询天气.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -773,28 +787,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web crawler/0 打印进度条.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/array_linkedlist/hashtable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/array_linkedlist/array.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
-          <caret line="153" column="37" lean-forward="true" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="37" />
+          <caret line="153" column="37" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="37" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
             <element signature="e#1692#1931#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/DP_greedy_back_etc/back.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
