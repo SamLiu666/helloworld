@@ -2,7 +2,20 @@
 This project include some basic knowledge and small programmers. It is easy for beginners to practice.
 To make it better, keep learning is necessary. 
 
+## Data Structure 
+
+This part is important and convenient to program.
+
+### List operation
+
+![image-20200319231008366](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200319231008366.png)
+
+![image-20200319231051114](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200319231051114.png)
+
+
+
 ## Class & Object oriented programming
+
 object = data_structure + handle_method
 class = object_0 + object_1 +... the same behavior of object as class 
 Using encapsulation to hide details, inheritance for specialization and generalization
@@ -104,11 +117,3 @@ The three elements of network are syntax, semantics, and timing
 HTTP  JSON request_module 
 
 ## Picture and File 
-Operate picture
-名称		RGBA值			名称		RGBA值   A for pixel
-White	(255, 255, 255, 255)	Red			(255, 0, 0, 255)
-Green	(0, 255, 0, 255)		Blue		(0, 0, 255, 255)
-Gray	(128, 128, 128, 255)	Yellow		(255, 255, 0, 255)
-Black	(0, 0, 0, 255)			Purple		(128, 0, 128, 255
-module--pillow
-Excel PDF WORD

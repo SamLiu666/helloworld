@@ -1,3 +1,5 @@
+from collections import deque
+
 
 """用类的方式表示列表的操作"""
 """
@@ -38,9 +40,18 @@ def list_stack():
 """ import collections.deque 
  url = https://docs.python.org/3/library/collections.html#collections.deque"""
 
-from collections import deque
-print("**** List as Queue ****")
-queue = deque(["I", " Love ", "U", "Yeah!"])
-queue.append("do")
-print(queue,queue.popleft())    # 在一行执行
+def simpleway():
+    print("**** List as Queue ****")
+    queue = deque(["I", " Love ", "U", "Yeah!"])
+    queue.append("do")
+    print(queue,queue.popleft())    # 在一行执行
 
+"""https://docs.python.org/3/library/stdtypes.html#dict"""
+print("**** dic 字典 ****")
+a = dict(one=1, two=2, three=3)     # 内置dict函数，生成字典，若无参数则默认已初始化
+c = zip(['one', 'two', 'three'], [1, 2, 3])   # zip() 函数用于将可迭代的对象作为参数，将对象中对应的元素打包成一个个元组，然后返回由这些元组组成的对象
+print(a,dict(c))        # 用 dict、list 转换对象查看
+
+
+# if __name__ == '__main__':
+#     simpleway()
