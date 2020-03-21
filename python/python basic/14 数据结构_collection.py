@@ -17,7 +17,7 @@ def Counter_info():
     print('\n')
 
 
-def Counter_deque():
+def Deque_Queue():
     print("**** Deque 实质双向队列 ****")
     d = deque("ascvrewiuo")
     print("** deque as stack LIFO**")
