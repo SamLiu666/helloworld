@@ -1,24 +1,22 @@
-# Data System
+# class
 
-preserve the data for a long time
+![image-20200322144941735](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200322144941735.png)
 
-language-SQL
+# List Tuple Dict Set
 
-Related product:
+![image-20200322101433938](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200322101433938.png)
 
-Oracle, DB2, SQL Server, MySQL
+![image-20200322101505559](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200322101505559.png)
 
-## MySQL
+![image-20200322102615162](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200322102615162.png)
 
-pip install PyMySQL
+![image-20200322102711911](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200322102711911.png)
 
-## MongoDB
-
-MongoDB将数据存储为一个文档，一个文档由一系列的“键值对”组成
+![image-20200322103329411](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200322103329411.png)
 
 
 
-[更多信息]([https://github.com/SamLiu666/Python-100-Days/blob/master/Day36-40/39-40.NoSQL%E5%85%A5%E9%97%A8.md](https://github.com/SamLiu666/Python-100-Days/blob/master/Day36-40/39-40.NoSQL入门.md))
+# Hash Map
 
-
+![image-20200322105038147](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200322105038147.png)
 

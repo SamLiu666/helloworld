@@ -98,4 +98,5 @@ def display_time():
 
 
 if __name__ == '__main__':
-    display_time()
+    # display_time()
+    pass

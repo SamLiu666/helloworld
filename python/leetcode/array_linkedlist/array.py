@@ -158,9 +158,21 @@ class solution:
 
         return product
 
+    # 215. Kth Largest Element in an Array
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        ss = sorted(set(nums))
+
+        print(ss)
+        for i in range(5-1, -1, -1):
+            # print(i)
+            if i == len(ss) - k + 1:
+                return ss[i]
+
+
 s=solution()
-nums = [1,2,3,4]
-print(s.productExceptSelf(nums))
+nums = [3,2,1,5,6,4]
+test = [3,2,3,1,2,4,5,5,6]
+print(s.findKthLargest(test, 4), s.findKthLargest(nums, 2))
 # for j in reversed(range(5)):
 #     print(j)
 # for j in range(5-1, -1, -1):

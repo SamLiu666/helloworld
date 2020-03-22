@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a307c096-451e-4bd1-9d02-853d4e754e27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data structure/0 List Set  Tuple Dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data structure/1 Hash Map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data structure/0 class and module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data structure/2 linkedlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data structure/4 numpy operate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data structure/5 binary search tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data structure/14_1 list.py" beforeDir="false" afterPath="$PROJECT_DIR$/data structure/14_1 list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/array_linkedlist/set.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/array_linkedlist/set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data structure/0 List Set  Tuple Dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/data structure/3 List Set  Tuple Dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data structure/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/data structure/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/array_linkedlist/array.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/array_linkedlist/array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python basic/8_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/python basic/8_class.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/array_linkedlist/array.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3197">
-              <caret line="148" column="16" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="16" />
+            <state relative-caret-position="240">
+              <caret line="174" column="59" selection-start-line="174" selection-start-column="59" selection-end-line="174" selection-end-column="59" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
                 <element signature="e#1692#1931#0" />
@@ -30,52 +34,65 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/array_linkedlist/set.py">
+        <entry file="file://$PROJECT_DIR$/data structure/2 linkedlist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="391">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python basic/7_字符串_列表_字典类型操作.py">
+        <entry file="file://$PROJECT_DIR$/data structure/4 numpy operate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="6" lean-forward="true" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="230">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data structure/0 List Set  Tuple Dict.py">
+        <entry file="file://$PROJECT_DIR$/data structure/5 binary search tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="253">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
               <folding>
-                <element signature="e#23#1190#0" />
-                <element signature="e#18#271#0" />
-                <element signature="e#1486#1624#0" />
-                <element signature="e#450#1314#0" />
+                <element signature="e#722#1027#0" />
+                <element signature="e#1605#1789#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data structure/1 Hash Map.py">
+        <entry file="file://$PROJECT_DIR$/data structure/0 class and module.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="60" selection-end-column="25" />
+            <state relative-caret-position="46">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python basic/0_hw 5.py">
+        <entry file="file://$PROJECT_DIR$/python basic/8_class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="368">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data structure/3 List Set  Tuple Dict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="619">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
+              <folding>
+                <element signature="e#23#1190#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,11 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/13_多进程.py" />
-        <option value="$PROJECT_DIR$/13_多线程查询天气.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/database/SQL.py" />
-        <option value="$PROJECT_DIR$/web crawler/easypart.py" />
         <option value="$PROJECT_DIR$/python basic/13_多线程查询天气.py" />
         <option value="$PROJECT_DIR$/web crawler/crawl_douban.py" />
         <option value="$PROJECT_DIR$/web crawler/1 request_ku.py" />
@@ -160,7 +172,6 @@
         <option value="$PROJECT_DIR$/web crawler/4 爬取电影.py" />
         <option value="$PROJECT_DIR$/web crawler/0 打印进度条.py" />
         <option value="$PROJECT_DIR$/leetcode/array_linkedlist/hashtable.py" />
-        <option value="$PROJECT_DIR$/leetcode/array_linkedlist/array.py" />
         <option value="$PROJECT_DIR$/leetcode/DP_greedy_back_etc/back.py" />
         <option value="$PROJECT_DIR$/project/14 数据结构_collection.py" />
         <option value="$PROJECT_DIR$/leetcode/stack_tree/tree.py" />
@@ -176,14 +187,20 @@
         <option value="$PROJECT_DIR$/data structure/14_1 list.py" />
         <option value="$PROJECT_DIR$/data structure/0 tuple.py" />
         <option value="$PROJECT_DIR$/data structure/1 Hash Map.py" />
+        <option value="$PROJECT_DIR$/leetcode/array_linkedlist/array.py" />
+        <option value="$PROJECT_DIR$/python basic/8_class.py" />
+        <option value="$PROJECT_DIR$/data structure/00 class and module.py" />
+        <option value="$PROJECT_DIR$/data structure/1 linkedlist.py" />
+        <option value="$PROJECT_DIR$/data structure/4 numpy operate.py" />
+        <option value="$PROJECT_DIR$/data structure/5 binary search tree.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="626" />
-    <option name="y" value="36" />
+    <option name="x" value="2085" />
+    <option name="y" value="12" />
     <option name="width" value="1126" />
-    <option name="height" value="943" />
+    <option name="height" value="930" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -198,21 +215,6 @@
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="data structure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="python basic" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -223,7 +225,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -245,8 +247,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1 Hash Map">
-    <configuration name="0 tuple" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.5 binary search tree">
+    <configuration name="00 class and module" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,7 +260,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\东蒙 人工智能课程\cs learning git\python\data structure\0 List Set  Tuple Dict.py" />
+      <option name="SCRIPT_NAME" value="D:\东蒙 人工智能课程\cs learning git\python\data structure\0 class and module.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,7 +269,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1 Hash Map" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1 linkedlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,7 +281,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data structure/1 Hash Map.py" />
+      <option name="SCRIPT_NAME" value="D:\东蒙 人工智能课程\cs learning git\python\data structure\2 linkedlist.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,7 +290,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14_1 list (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="4 numpy operate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -300,7 +302,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data structure/14_1 list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data structure/4 numpy operate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,7 +311,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="15graph_info" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5 binary search tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data structure" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data structure/5 binary search tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="8_class" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,7 +344,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python basic/15graph_info.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python basic/8_class.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,27 +366,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/array_linkedlist/array.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="set" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/array_linkedlist" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/array_linkedlist/set.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -395,11 +397,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1 Hash Map" />
-        <item itemvalue="Python.0 tuple" />
-        <item itemvalue="Python.14_1 list (1)" />
-        <item itemvalue="Python.set" />
-        <item itemvalue="Python.15graph_info" />
+        <item itemvalue="Python.5 binary search tree" />
+        <item itemvalue="Python.4 numpy operate" />
+        <item itemvalue="Python.1 linkedlist" />
+        <item itemvalue="Python.00 class and module" />
+        <item itemvalue="Python.8_class" />
       </list>
     </recent_temporary>
   </component>
@@ -417,15 +419,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="626" y="36" width="1126" height="943" extended-state="0" />
-    <editor active="true" />
+    <frame x="2085" y="12" width="1126" height="930" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22426471" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3254364" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3856613" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38316584" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35475895" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -440,17 +441,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web crawler/Movie.txt" />
-    <entry file="file://$PROJECT_DIR$/web crawler/Movie List" />
-    <entry file="file://$PROJECT_DIR$/web crawler/movie.csv" />
-    <entry file="file://$PROJECT_DIR$/web crawler/Movie List.csv" />
-    <entry file="file://$PROJECT_DIR$/web crawler/0_header.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web crawler/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -666,14 +656,43 @@
     <entry file="file://$PROJECT_DIR$/python basic/14 数据结构.py" />
     <entry file="file://$PROJECT_DIR$/python basic/14 数据结构_collection.py" />
     <entry file="file://$PROJECT_DIR$/python basic/14_1 list.py" />
-    <entry file="file://$PROJECT_DIR$/leetcode/array_linkedlist/array.py">
+    <entry file="file://$PROJECT_DIR$/project/SQL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3197">
-          <caret line="148" column="16" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#1692#1931#0" />
-          </folding>
+        <state relative-caret-position="-139" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data structure/14_1 list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/array_linkedlist/set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python basic/7_字符串_列表_字典类型操作.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="6" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data structure/1 Hash Map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1265">
+          <caret line="55" selection-start-line="55" selection-end-line="60" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python basic/0_hw 5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -701,55 +720,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/SQL.py">
+    <entry file="file://$PROJECT_DIR$/data structure/3 List Set  Tuple Dict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data structure/14_1 list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/array_linkedlist/set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python basic/0_hw 5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python basic/7_字符串_列表_字典类型操作.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="6" lean-forward="true" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data structure/1 Hash Map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="60" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data structure/0 List Set  Tuple Dict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="619">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
           <folding>
             <element signature="e#23#1190#0" />
-            <element signature="e#18#271#0" />
-            <element signature="e#1486#1624#0" />
-            <element signature="e#450#1314#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/array_linkedlist/array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="174" column="59" selection-start-line="174" selection-start-column="59" selection-end-line="174" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#1692#1931#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python basic/8_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data structure/0 class and module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data structure/2 linkedlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data structure/4 numpy operate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data structure/5 binary search tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="e#722#1027#0" />
+            <element signature="e#1605#1789#0" />
           </folding>
         </state>
       </provider>
