@@ -8,3 +8,9 @@ def findDupicates(nums:List):
             return num
         seen.add(num)
 
+x = ['abb', 'baa']
+print(min(x))
+a = [1,3,6,2]
+b = sorted(a)
+
+print(a, b)
