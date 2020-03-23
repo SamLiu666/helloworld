@@ -20,3 +20,7 @@
 
 ![image-20200322105038147](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200322105038147.png)
 
+## 2-3 Tree
+
+![image-20200323095915900](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200323095915900.png)
+

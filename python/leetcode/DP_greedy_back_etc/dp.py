@@ -50,21 +50,42 @@ class solution:
         # last, now = now, max(last + i, now)   # 一行实现
         return now
 
-# last now
-# 0 0
-# 0 1
-# 0 1
-# 1 2
-# 1 2
-# 2 4
-# 2 4
-# 4 4
+    # 62. Unique Paths
+    def uniquePaths1(self, m, n):
+        # DP
+        dp = [[1]*m for i in range(n)]
 
-# 0 0
-# 1 1
-# 1 1
-# 3 3
-# 3 3
-# 6 6
-# 6 6
-# 7 7
+        for i in range(1,n):
+            for j in range(1, m):
+                dp[i][j] = dp[i-1][j] + dp[i][j-1]
+        return dp[-1][-1]
+
+    #64. Minimum Path Sum
+    def minPathSum(self, grid: List[List[int]]) -> int:
+        m = len(grid)
+        n = len(grid[0])
+        dp = [0] * n
+        for i in range(m):
+            dp[0] += grid[i][0]
+            for j in range(1, n):
+                dp[j] = (min(dp[j], dp[j-1]) + grid[i][j])
+        return dp[-1]
+
+    #
+    def numTree(self, n):
+        res = [0] * (n+1)
+        res[0] = 1
+        for i in range(1, n+1):
+            for j in range(1, i):
+                res[i] += res[j] * res[i-1-j]
+        return res[n]
+
+
+grid = [
+  [1,3,1],
+  [1,5,1],
+  [4,2,1]
+]
+m = len(grid)
+n = len(grid[0])
+print(m,n)

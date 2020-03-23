@@ -26,6 +26,14 @@ class TreeNode:
             res.append(node.val)
             root = node.right
 
+    # 102. Binary Tree Level Order Traversal
+    def levelOrder(self, root: TreeNode) -> List[List[int]]:
+        ans, level = [], [root]
+        while root and level:
+            ans.append([node.val for node in level])
+            lrpair = [(node.left, node.right) for node in level]
+            level = [leaf for lr in lrpair for leaf in lr if leaf]
+        return ans
 
 
 
