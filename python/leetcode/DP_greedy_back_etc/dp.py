@@ -80,6 +80,27 @@ class solution:
                 res[i] += res[j] * res[i-1-j]
         return res[n]
 
+    #337. House Robber III
+    def rob(self, root):
+        return max(self.dfs(root))
+
+    def dfs(self, root):
+        if not root:    return (0,0)
+        left = self.dfs(root.left)
+        right = self.dfs(root.right)
+        return (root.val + left[1] + right[1],  left[1] + max(right[0], right[1]))
+
+    def maxArea(self, height:list):
+
+        # 双指针
+        maxarea, l, r = 0, 0, len(height)-1
+        r = len(height)
+        while l<r:
+            maxarea = max(maxarea, min(height[l], height[r])* (r-l))
+            if height[l] < height[r]:   l += 1
+            else:                       r -= 1
+        return maxarea
+
 
 grid = [
   [1,3,1],
