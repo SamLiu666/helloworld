@@ -4,7 +4,7 @@ This project is used to record the learning process which is about computer scie
 
 ## Algorithm 4th
 
-[TextBook(https://algs4.cs.princeton.edu/23quicksort/)]
+[TextBook](https://algs4.cs.princeton.edu/23quicksort/)
 
 and *Coursera class*
 
@@ -12,14 +12,14 @@ Language: ***Java***
 
 ## CS basic
 
-Documents about:
-
 ***Operating System***
 ***Computer Network***
 ***Algorithms and Data Structure***
 ***Database System***
 
 ## Leetcode - java
+
+
 
 ## Machine Learning 
 
