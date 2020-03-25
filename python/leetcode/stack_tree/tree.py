@@ -35,6 +35,18 @@ class TreeNode:
             level = [leaf for lr in lrpair for leaf in lr if leaf]
         return ans
 
+    def flatten(self, root):
+        self.prev = None
+        if root == None:    return None
+        self.flatten(root.right)
+        self.flatten(root.left)
+
+        root.right = self.prev
+        root.left = None
+        self.prev = root
+
+
+
 
 
 # t = TreeNode([1,2,3,4])
