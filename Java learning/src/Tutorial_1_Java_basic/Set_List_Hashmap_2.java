@@ -1,7 +1,9 @@
+package Tutorial_1_Java_basic;
+
 import java.lang.reflect.Array;
 import java.util.*;
 
-public class Set_List_Hashmap {
+public class Set_List_Hashmap_2 {
     // 8.1、普通哈希集合，树集合，链表哈希集合
     public void Set_(){
         Set<Integer> t = new HashSet<Integer>();    // 集合没有重复元素，哈希结构

@@ -1,6 +1,8 @@
+package Tutorial_1_Java_basic;
+
 import java.util.*;
 
-public class tutorial1 {
+public class Tutorial_1 {
     // 1、JAVA 数据类型
     public void dataType(){
 
@@ -131,33 +133,7 @@ public class tutorial1 {
     }
 
     public static void main(String[] args){
-        // 8、列表和集合,list sett
-        Set<Integer> t = new HashSet<Integer>();    // 集合没有重复元素，哈希结构
-        // t = [-2, 100, 5, 56, 12, 30]
-        t.add(100); t.add(12); t.add(-2);
-        t.add(56); t.add(5); t.add(30); t.add(-9);   // t.add()添加操作，无序集合
-        boolean co = t.contains(3);                 // 判断集合内是否有该元素
-        t.remove(-9);
-        System.out.println(t + "  普通集合  " + co + " 集合大小 " + t.size());
-
-        // 以树的结构构造集合，有序;
-        Set<Integer> tree_set = new TreeSet<>(t);
-        System.out.println(tree_set + "     树集合是有序的");
-
-        //链表哈希集合表
-        Set<Integer> linkSet = new LinkedHashSet<>(t);
-        System.out.println("链表集合：  " + linkSet);
-
-        // 8.2 列表，原集合 t= [-2, 100, 5, 56, 12, 30]
-        ArrayList<Integer> list_t = new ArrayList<>(t);
-        list_t.add(6);  list_t.get(6);  //获取元素索引
-        list_t.set(2, 60);  // 改变指定位置处 元素
-        // 获取 1~4 处字串, list.subList(i, j)
-        System.out.println(list_t + " 数组列表 " + list_t.subList(1,4));
-
-        // 链表结构
-        LinkedList<Integer> linkList = new LinkedList<Integer>(list_t);
-        System.out.println(" 链表列表  " + linkList);
-
+        Tutorial_1 tu_1 = new Tutorial_1();
+        tu_1.controlLoop();
     }
 }
