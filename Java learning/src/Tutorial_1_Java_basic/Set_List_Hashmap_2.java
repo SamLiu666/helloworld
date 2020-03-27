@@ -101,6 +101,7 @@ public class Set_List_Hashmap_2 {
     }
 
     public static void main(String[] args){
-
+        Set_List_Hashmap_2 ss = new Set_List_Hashmap_2();
+        ss.Map_example();
     }
 }
