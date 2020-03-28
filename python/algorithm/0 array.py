@@ -1,5 +1,6 @@
 from typing import List
 
+"""Leetcode: https://leetcode.com/tag/array/"""
 
 class Arrayproblem:
     """Easy 数组的题起手，记录理解过程"""
