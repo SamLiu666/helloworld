@@ -2,12 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a307c096-451e-4bd1-9d02-853d4e754e27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/0 mydata_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/1 Testdatabase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/2 Froeign Keys Relating Tables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data structure/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/data structure/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/cmd readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/.idea/mysite.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/main/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/main/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/main/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/main/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/main/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/main/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/main/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/main/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/main/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/mysite/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/mysite/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/mysite/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/mysite/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/mysite/wsgi.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/0 mydata_base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
+            <state relative-caret-position="736">
               <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
             </state>
           </provider>
@@ -38,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/1 Testdatabase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
+            <state relative-caret-position="943">
               <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
@@ -47,14 +63,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/2 Froeign Keys Relating Tables.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="494">
               <caret line="53" column="12" selection-end-line="54" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
-                <element signature="e#746#754#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithm/0 array.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding>
+                <element signature="e#255#464#0" />
+                <element signature="e#565#950#0" />
+                <element signature="e#1050#1264#0" />
               </folding>
             </state>
           </provider>
@@ -131,8 +160,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1889" />
-    <option name="y" value="45" />
+    <option name="x" value="268" />
+    <option name="y" value="114" />
     <option name="width" value="1471" />
     <option name="height" value="841" />
   </component>
@@ -359,8 +388,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1889" y="45" width="1471" height="841" extended-state="0" />
-    <editor active="true" />
+    <frame x="268" y="114" width="1471" height="841" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13049546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -665,18 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/0 array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
-          <folding>
-            <element signature="e#255#464#0" />
-            <element signature="e#565#950#0" />
-            <element signature="e#1050#1264#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/python3/Lib/site-packages/mysql/connector/authentication.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -691,13 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/python3/Lib/site-packages/mysql/connector/connection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -705,26 +714,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/3 Link Database Net.py">
+    <entry file="file://$PROJECT_DIR$/database/3 Link Database Net.py" />
+    <entry file="file://$PROJECT_DIR$/database/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="69">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/0 mydata_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
+        <state relative-caret-position="736">
           <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/1 Testdatabase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
+        <state relative-caret-position="943">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
@@ -734,11 +741,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/2 Froeign Keys Relating Tables.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="494">
           <caret line="53" column="12" selection-end-line="54" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#746#754#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/0 array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="e#255#464#0" />
+            <element signature="e#565#950#0" />
+            <element signature="e#1050#1264#0" />
           </folding>
         </state>
       </provider>

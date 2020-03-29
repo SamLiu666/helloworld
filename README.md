@@ -23,11 +23,12 @@ Language: ***Java***
 
 ## Machine Learning 
 
-## Python
+## [Python](https://github.com/SamLiu666/CS-learning-Notes/tree/master/python)
 
-### Language Basic
+### [Django](https://github.com/SamLiu666/CS-learning-Notes/tree/master/python/Django_tutorial)
+**Web developer framework is powerful. This part is recording how to learning it.**
 
-### Interesting Project
+### algorithm_leetcode
 
 ### LeetCode-everyday
 
