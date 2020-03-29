@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a307c096-451e-4bd1-9d02-853d4e754e27" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/cmd readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/.idea/mysite.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/main/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/main/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/main/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/main/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/main/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/main/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/main/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/main/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/main/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/mysite/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/mysite/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/mysite/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/mysite/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_tutorial/mysite/mysite/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MachineLearning/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/0_定时弹网页_播放音乐.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/list.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,60 +15,9 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/0 mydata_base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/1 Testdatabase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/2 Froeign Keys Relating Tables.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="53" column="12" selection-end-line="54" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithm/0 array.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-              <folding>
-                <element signature="e#255#464#0" />
-                <element signature="e#565#950#0" />
-                <element signature="e#1050#1264#0" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Project/test.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -160,8 +91,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="268" />
-    <option name="y" value="114" />
+    <option name="x" value="1817" />
+    <option name="y" value="30" />
     <option name="width" value="1471" />
     <option name="height" value="841" />
   </component>
@@ -171,7 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,15 +109,11 @@
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,7 +314,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="268" y="114" width="1471" height="841" extended-state="0" />
+    <frame x="1817" y="30" width="1471" height="841" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13049546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -429,7 +356,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/DP/back.py" />
     <entry file="file://$PROJECT_DIR$/leetcode/stack_tree/minstack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -438,24 +364,24 @@
       </provider>
     </entry>
     <entry file="file://D:/python3/Lib/site-packages/selenium/webdriver/phantomjs/webdriver.py" />
-    <entry file="file://$PROJECT_DIR$/project/list.txt">
+    <entry file="file://$PROJECT_DIR$/Project/list.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/0 获取文件名.py">
+    <entry file="file://$PROJECT_DIR$/Project/0 获取文件名.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web crawler/4 爬取小说.py">
+    <entry file="file://$PROJECT_DIR$/Web crawler/4 爬取小说.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1702">
           <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web crawler/0 打印进度条.py">
+    <entry file="file://$PROJECT_DIR$/Web crawler/0 打印进度条.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
@@ -469,7 +395,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/0_定时弹网页_播放音乐.py">
+    <entry file="file://$PROJECT_DIR$/Project/0_定时弹网页_播放音乐.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="920">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
@@ -485,7 +411,7 @@
     <entry file="file://$PROJECT_DIR$/python basic/14 数据结构.py" />
     <entry file="file://$PROJECT_DIR$/python basic/14 数据结构_collection.py" />
     <entry file="file://$PROJECT_DIR$/python basic/14_1 list.py" />
-    <entry file="file://$PROJECT_DIR$/project/SQL.py">
+    <entry file="file://$PROJECT_DIR$/Project/SQL.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-139" />
       </provider>
@@ -595,14 +521,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/testeverything.py">
+    <entry file="file://$PROJECT_DIR$/Project/testeverything.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python basic/13_多进程.py">
+    <entry file="file://$PROJECT_DIR$/Python basic/13_多进程.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -611,7 +537,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/1 Game.py">
+    <entry file="file://$PROJECT_DIR$/Project/1 Game.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2829">
           <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
@@ -631,7 +557,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python basic/7_字符串_列表_字典类型操作.py">
+    <entry file="file://$PROJECT_DIR$/Python basic/7_字符串_列表_字典类型操作.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
@@ -655,7 +581,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python basic/11_file_operation.py">
+    <entry file="file://$PROJECT_DIR$/Python basic/11_file_operation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
@@ -669,7 +595,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python basic/8_class.py">
+    <entry file="file://$PROJECT_DIR$/Python basic/8_class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
@@ -679,14 +605,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python basic/0_hw 5.py">
+    <entry file="file://$PROJECT_DIR$/Python basic/0_hw 5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/13_多线程查询天气.py">
+    <entry file="file://$PROJECT_DIR$/Project/13_多线程查询天气.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
@@ -715,21 +641,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/3 Link Database Net.py" />
-    <entry file="file://$PROJECT_DIR$/database/test.py">
+    <entry file="file://$PROJECT_DIR$/DataBase/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/0 mydata_base.py">
+    <entry file="file://$PROJECT_DIR$/DataBase/0 mydata_base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
           <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/1 Testdatabase.py">
+    <entry file="file://$PROJECT_DIR$/DataBase/1 Testdatabase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="943">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
@@ -739,9 +665,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/2 Froeign Keys Relating Tables.py">
+    <entry file="file://$PROJECT_DIR$/DataBase/2 Froeign Keys Relating Tables.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+        <state relative-caret-position="1196">
           <caret line="53" column="12" selection-end-line="54" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
@@ -760,6 +686,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
