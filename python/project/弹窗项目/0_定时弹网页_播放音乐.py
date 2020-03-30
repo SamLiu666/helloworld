@@ -10,12 +10,9 @@ def Learning_time():
         i = i+1
         #时间记录，以秒为单位，学习时间默认45分钟
         time.sleep(2)
-
-
         # 到时间了打开指定网页
         url = "https://www.bilibili.com/video/av46644313?from=search&seid=14891161536312023730"
         webbrowser.open(url)
-
         # 默认休息五分钟，播放音乐
         pygame.mixer.init()
         if(j==0):
