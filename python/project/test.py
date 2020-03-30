@@ -22,5 +22,11 @@
 #     print(i, j)
 
 nums = [ 10,30,40,50,100]
-for i, loot in enumerate(nums[1:],start=2):
+for i, loot in enumerate(nums[0:],start=2):
     print(i, loot, type(nums))
+
+A = [[3,7,8],[9,11,13],[15,16,17]]
+for col in zip(*A):
+    print(col)
+
+print(A)

@@ -84,6 +84,54 @@ class Arrayproblem:
                     count += 1
         return count
 
+    # 1304. Find N Unique Integers Sum up to Zero
+    def sumZero(self, n):
+        # 奇偶对称求解
+        res = [0]*n
+        if n%2 == 1:    # 奇数
+            left, right = 1, n-1
+        else:
+            left, right = 0, n-1
+        while left < right:
+            res[left] = right
+            res[right] = -right
+            left += 1
+            right -= 1
+        return res
+
+    # 832. Flipping an Image
+    def findAndInvertImage(self, A):
+        # 翻转矩阵
+        row, col = len(A), len(A[0])  # 行 列
+        for i in range(row):
+            for j in range(col):
+                if j < col-j-1:
+                    A[i][j], A[i][col-j-1] = A[i][col-j-1],A[i][j]
+                    # A[i][j] ^=1
+                    # A[i][col-j-1] ^=1
+        # 0 1 互换
+        for i in range(row):
+            for j in range(col):
+                if A[i][j] == 0:    A[i][j] = 1
+                else:               A[i][j] = 0
+        return A
+        # return [[x ^ 1 for x in row[::-1]] for row in L]  一行代码
+
+    # 1380. Lucky Numbers in a Matrix
+    def luckyNumbers(self, matrix: List[List[int]]) -> List[int]:
+        # 找到行中的最小值，列中最大值，运用集合存储，最后比较都存在的即为幸运数
+        row_min, col_max, lucky = set(), set(), []
+        for row in matrix:
+            row_min.add(min(row))
+        print(row_min)
+        for col in zip(*matrix):
+            col_max.add(max(col))
+        print(col_max)
+        for i in col_max:
+            if i in row_min:
+                lucky.append(i)
+        return lucky
+
 
 if __name__ == '__main__':
     # 测试部分
@@ -95,6 +143,9 @@ if __name__ == '__main__':
     # nums = [0, 1, 2, 3, 4]
     # index = [0, 1, 2, 2, 1]     #1389 [0,4,1,3,2]
     # points = [[1, 1], [3, 4], [-1, 0]]   # 1266: 7
-    arr = [17, 18, 5, 4, 6, 1]  # 1299
-    grid = [[4,3,2,-1],[3,2,1,-1],[1,1,-1,-2],[-1,-1,-2,-3]]  # 1351 -> 8
-    print(solution.countNegatives(grid))
+    # arr = [17, 18, 5, 4, 6, 1]  # 1299
+    #     # grid = [[4,3,2,-1],[3,2,1,-1],[1,1,-1,-2],[-1,-1,-2,-3]]  # 1351 -> 8
+    n = 4   # 4  # 1304 [[3, 2, -2, -3]]
+    A = [[1,1,0],[1,0,1],[0,0,0]]    # 832 [[1,0,0],[0,1,0],[1,1,1]]
+    matrix = [[3,7,8],[9,11,13],[15,16,17]]
+    print(solution.luckyNumbers(matrix))
