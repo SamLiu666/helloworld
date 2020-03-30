@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'main.apps.MainConfig',         # 可更改Main，首字母大写
+
 ]
 
 MIDDLEWARE = [
