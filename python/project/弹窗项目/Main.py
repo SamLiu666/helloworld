@@ -1,4 +1,4 @@
-from Learning import Learning
+from Learning_interval import Learning
 
 if __name__ == '__main__':
     time = 5
@@ -6,4 +6,4 @@ if __name__ == '__main__':
     # play = Learning(time, url, False)
     # play.pop_()
     play2 = Learning()
-    play2.pop_()
+    play2.start_()

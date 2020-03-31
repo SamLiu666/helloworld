@@ -10,7 +10,7 @@ class Learning:
         self.counts = counts        # 学习一次循环次数
         self.music = music          # 播放音乐
 
-    def pop_(self):
+    def start_(self):
         # 主要部分
         freq = 0
         while freq < self.counts:

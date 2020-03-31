@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a307c096-451e-4bd1-9d02-853d4e754e27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Djangol/mysite/main/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Djangol/mysite/main/templates/main/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web crawler/example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Djangol/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Djangol/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Djangol/mysite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Djangol/mysite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Djangol/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Djangol/mysite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Djangol/mysite/main/templates/main/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Djangol/mysite/main/templates/main/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Djangol/mysite/main/templates/main/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Djangol/mysite/main/templates/main/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Djangol/mysite/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Djangol/mysite/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Djangol/mysite/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Djangol/mysite/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySQL/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web crawler/test.py" beforeDir="false" />
-    </list>
+    <list default="true" id="a307c096-451e-4bd1-9d02-853d4e754e27" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +14,7 @@
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -38,17 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithm_leetcode/1 stack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="183" selection-end-line="196" selection-end-column="39" />
-              <folding>
-                <element signature="e#129#838#0" />
-                <element signature="e#872#1478#0" />
-                <element signature="e#166#489#0" />
-                <element signature="e#601#787#0" />
-                <element signature="e#912#1330#0" />
-                <element signature="e#1688#1979#0" />
-                <element signature="e#3542#3846#0" />
-              </folding>
+            <state relative-caret-position="222">
+              <caret line="177" column="44" lean-forward="true" selection-start-line="177" selection-start-column="44" selection-end-line="177" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -135,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,11 +123,15 @@
               <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithm_leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,7 +333,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="242" y="50" width="1455" height="984" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19618914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -559,13 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm_leetcode/data structure/3 List Set  Tuple Dict.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-536">
@@ -573,19 +545,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm_leetcode/1 stack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="183" selection-end-line="196" selection-end-column="39" />
-          <folding>
-            <element signature="e#129#838#0" />
-            <element signature="e#872#1478#0" />
-            <element signature="e#166#489#0" />
-            <element signature="e#601#787#0" />
-            <element signature="e#912#1330#0" />
-            <element signature="e#1688#1979#0" />
-            <element signature="e#3542#3846#0" />
-          </folding>
+        <state relative-caret-position="222">
+          <caret line="177" column="44" lean-forward="true" selection-start-line="177" selection-start-column="44" selection-end-line="177" selection-end-column="44" />
         </state>
       </provider>
     </entry>
