@@ -43,3 +43,5 @@ Language: ***Java***
 ### [Python basic](https://github.com/SamLiu666/CS-learning-Notes/tree/master/python/python%20basic)
 
 ### [Web crawler](https://github.com/SamLiu666/CS-learning-Notes/tree/master/python/web%20crawler)
+
+Python ~ web
