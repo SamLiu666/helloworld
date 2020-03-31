@@ -1,3 +1,7 @@
+# 参考
+
+https://getbootstrap.com/docs/4.4/getting-started/introduction/  bootstrap
+
 内置的 urls -> 新建的main.urls -> main. views 视图
 
 cmd 指令创建Django 项目
