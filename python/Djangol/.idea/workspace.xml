@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdc2a3fd-874e-49cd-b951-ffdbd49ee625" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS_Learning/popWindow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/register/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Djangol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Djangol.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/main/templates/main/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/main/templates/main/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/main/templates/main/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/main/templates/main/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/main/templates/main/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/main/templates/main/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project/弹窗项目/定时项目.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/弹窗项目/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../project/弹窗项目/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,78 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/breakout_1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/breakout_2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-274" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/breakout_3.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1240" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/breakout_4.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1449" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/breakout_5.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2183" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/breakout_6.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2183">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/breakout_7.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2896" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/breakout_8.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3080" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/breakout_9.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3126" />
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -141,7 +62,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,6 +73,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,6 +117,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="452" y="222" width="1330" height="745" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1493808" />
@@ -328,16 +250,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS_Learning/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding>
-            <element signature="e#168#175#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/JS_Learning/test.html" />
     <entry file="file://$PROJECT_DIR$/JS_Learning/popWindow.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
@@ -345,59 +258,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/breakout_2.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/breakout_1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/breakout_2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-274" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/breakout_3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1240" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/breakout_4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1449" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/breakout_5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2183" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/breakout_6.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2183">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="23">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/breakout_7.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2896" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/breakout_8.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3080" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/breakout_9.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3126" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/JS_Learning/website-master/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

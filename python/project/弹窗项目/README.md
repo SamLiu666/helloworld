@@ -8,6 +8,8 @@
 
 **窗口可视化操作**
 
+**桌面程序化运行**
+
 
 
 # 设计思路
@@ -18,7 +20,7 @@
 
 | 内容                                       |      |
 | ------------------------------------------ | ---- |
-| 建立学习提醒类：设置默认参数，各个功能函数 |  20200330    |  
+| 建立学习提醒类：设置默认参数，各个功能函数 |  20200330    |
 | tkinter 可视化学习窗口                     |    20200331  |
 |  学习窗口类型化               |    20200401  |
 
@@ -29,3 +31,7 @@
 app?
 
 库
+
+# 程序打包成exe 可执行文件
+
+https://blog.csdn.net/lzy98/article/details/83246281?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task

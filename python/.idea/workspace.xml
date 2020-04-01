@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a307c096-451e-4bd1-9d02-853d4e754e27" name="Default Changelist" comment="" />
+    <list default="true" id="a307c096-451e-4bd1-9d02-853d4e754e27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithm_leetcode/2 queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm_leetcode/3 Linked_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm_leetcode/4 Tree_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm_leetcode/5 graph_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm_leetcode/6 Heap_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm_leetcode/7 Hash_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Djangol/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Djangol/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/弹窗项目/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/project/弹窗项目/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,17 +24,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="299">
+              <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithm_leetcode/1 stack.py">
+        <entry file="file://$PROJECT_DIR$/Algorithm_leetcode/3 Linked_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="177" column="44" lean-forward="true" selection-start-line="177" selection-start-column="44" selection-end-line="177" selection-end-column="44" />
+            <state relative-caret-position="452">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
         </entry>
@@ -44,12 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/testeverything.py" />
-        <option value="$PROJECT_DIR$/leetcode/DP/back.py" />
-        <option value="$PROJECT_DIR$/web crawler/4 爬取小说.py" />
-        <option value="$PROJECT_DIR$/web crawler/4 爬取电影.py" />
-        <option value="$PROJECT_DIR$/web crawler/0 打印进度条.py" />
-        <option value="$PROJECT_DIR$/leetcode/array_linkedlist/hashtable.py" />
         <option value="$PROJECT_DIR$/leetcode/DP_greedy_back_etc/back.py" />
         <option value="$PROJECT_DIR$/project/14 数据结构_collection.py" />
         <option value="$PROJECT_DIR$/leetcode/DP_greedy_back_etc/DFS.py" />
@@ -93,14 +98,20 @@
         <option value="$PROJECT_DIR$/Project/弹窗项目/0 弹窗.py" />
         <option value="$PROJECT_DIR$/Project/弹窗项目/__init__.py" />
         <option value="$PROJECT_DIR$/Project/弹窗项目/test.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Algorithm_leetcode/1 stack.py" />
+        <option value="$PROJECT_DIR$/Algorithm_leetcode/2 queue.py" />
+        <option value="$PROJECT_DIR$/Algorithm_leetcode/4 Tree_.py" />
+        <option value="$PROJECT_DIR$/Algorithm_leetcode/5 graph_.py" />
+        <option value="$PROJECT_DIR$/Algorithm_leetcode/6 Heap_.py" />
+        <option value="$PROJECT_DIR$/Algorithm_leetcode/7 Hash_.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/Algorithm_leetcode/3 Linked_list.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="242" />
-    <option name="y" value="50" />
+    <option name="x" value="75" />
+    <option name="y" value="31" />
     <option name="width" value="1455" />
     <option name="height" value="984" />
   </component>
@@ -160,49 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1 stack">
-    <configuration name="0 弹窗" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project/弹窗项目" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/弹窗项目/0 弹窗.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="0_定时弹网页_播放音乐" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project/弹窗项目" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/弹窗项目/0_定时弹网页_播放音乐.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.3 Linked_list">
     <configuration name="1 stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,6 +185,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm_leetcode/1 stack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2 queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm_leetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm_leetcode/2 queue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3 Linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm_leetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm_leetcode/3 Linked_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,11 +321,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1 stack" />
+        <item itemvalue="Python.3 Linked_list" />
         <item itemvalue="Python.test (2)" />
+        <item itemvalue="Python.2 queue" />
+        <item itemvalue="Python.1 stack" />
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.0 弹窗" />
-        <item itemvalue="Python.0_定时弹网页_播放音乐" />
       </list>
     </recent_temporary>
   </component>
@@ -332,15 +343,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="242" y="50" width="1455" height="984" extended-state="0" />
+    <frame x="75" y="31" width="1455" height="984" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19618914" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20959774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3254364" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4982554" weight="0.27882352" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4374269" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4982554" weight="0.26588234" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4364706" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -384,16 +395,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python basic/14 数据结构.py" />
-    <entry file="file://$PROJECT_DIR$/python basic/14 数据结构_collection.py" />
-    <entry file="file://$PROJECT_DIR$/python basic/14_1 list.py" />
-    <entry file="file://$PROJECT_DIR$/Project/SQL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data structure/14_1 list.py" />
-    <entry file="file://$PROJECT_DIR$/leetcode/array_linkedlist/set.py" />
     <entry file="file://$PROJECT_DIR$/leetcode/array_linkedlist/array.py" />
     <entry file="file://$PROJECT_DIR$/data structure/4 numpy operate.py" />
     <entry file="file://$PROJECT_DIR$/leetcode/search/search.py" />
@@ -406,13 +407,7 @@
     <entry file="file://$PROJECT_DIR$/data structure/0 class and module.py" />
     <entry file="file://$PROJECT_DIR$/data structure/1 Hash Map.py" />
     <entry file="file://$PROJECT_DIR$/data structure/6 Two three trees.py" />
-    <entry file="file://$PROJECT_DIR$/Project/testeverything.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/testeverything.py" />
     <entry file="file://$PROJECT_DIR$/Python basic/13_多进程.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -422,16 +417,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project/1 Game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2829">
-          <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/1 Game.py" />
     <entry file="file://$PROJECT_DIR$/data structure/3 List Set  Tuple Dict.py" />
     <entry file="file://$PROJECT_DIR$/Python basic/7_字符串_列表_字典类型操作.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -460,13 +446,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project/13_多线程查询天气.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/13_多线程查询天气.py" />
     <entry file="file://D:/python3/Lib/site-packages/mysql/connector/authentication.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -545,17 +525,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/Algorithm_leetcode/1 stack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="4071">
+          <caret line="177" column="44" selection-start-line="177" selection-start-column="44" selection-end-line="177" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm_leetcode/1 stack.py">
+    <entry file="file://$PROJECT_DIR$/Algorithm_leetcode/2 queue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="177" column="44" lean-forward="true" selection-start-line="177" selection-start-column="44" selection-end-line="177" selection-end-column="44" />
+        <state relative-caret-position="230">
+          <caret line="105" column="8" lean-forward="true" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#56#2653#0" />
+            <element signature="e#1362#1432#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm_leetcode/4 Tree_.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm_leetcode/5 graph_.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm_leetcode/6 Heap_.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm_leetcode/7 Hash_.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm_leetcode/3 Linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
