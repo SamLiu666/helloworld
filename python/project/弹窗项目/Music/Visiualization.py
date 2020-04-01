@@ -3,18 +3,34 @@ from Learning_interval import Learning
 
 """tkinter: https://zmister.com/archives/category/guidevelop/tkinter_book/"""
 
-def hello():
-    st = Learning()
-    st.start_()
-    print("jellp")
+
+class tk_window(tk.Tk):
+
+    def __init__(self, counts):
+        super(tk_window, self).__init__()
+        self.counts = counts
+
+
+    def window_Design(self):
+        self.title("Sam' Study Window")
+        self.button = tk.Button(master=self, text="开始学习")
+        self.button.pack(padx=200, pady=50)
+        self.button.config(command=self.control)  # 将按钮和函数关联
+
+        self.entry = tk.Entry()
+        self.button2 = tk.Button(master=self, text="学习次数")
+        self.entry.pack()
+        self.button2.pack(padx=200, pady=50)
+
+
+        self.mainloop()  # 将其加入主循环
+
+    def control(self):
+        st = Learning(counts=self.counts)  # 变为False试试
+        st.start_()
 
 
 if __name__ == '__main__':
 
-
-    root = tk.Tk(className=" Sam's Learning Window")    # 定义一个窗体,窗口名称
-    button = tk.Button(master=root, text= "开始学习")
-    button.pack(padx=200, pady=50)
-    button.config(command=hello)    # 将按钮和函数关联
-
-    root.mainloop()     # 将其加入主循环
+    app = tk_window(2)
+    app.window_Design()
