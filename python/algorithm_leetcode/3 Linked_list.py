@@ -44,6 +44,7 @@ class ListNode:
 
 class LinkedList_Solution:
 
+    # 链表->列表
     def InputtoList(self, head: ListNode):
         res = []
         while head.next:
@@ -51,6 +52,7 @@ class LinkedList_Solution:
             head = head.next
         res.append(head.val)
         return res
+
     # 1290. Convert Binary Number in a Linked List to Integer
     def getDecimaValue(self, head: ListNode):
         print(head)
@@ -123,6 +125,21 @@ class LinkedList_Solution:
             l2.next = self.mergeTwoLists(l1, l2.next)
             return l2
 
+    # 83 Remove Dupicates from Sorted List
+    def deleteDuplicates(self, head:ListNode):
+        prev= head
+        if head.next:
+            cur = head.next
+
+        while cur:
+            if prev.val == cur.val:
+                prev.next = cur.next
+                cur = cur.next
+            else:
+                cur = cur.next
+                prev = prev.next
+        return head
+
 # 列表转换为链表
 def InputToListNode(nums):
     # Now convert that list into linked list
@@ -141,8 +158,8 @@ if __name__ == '__main__':
     # a = ListNode(3)
     # print(a.val, a.next)
     # nums = InputToListNode([1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0])  # 1290  ans =18880
-    nums = InputToListNode([1,2,3,4,5,6])       # 876.  #206 [1,2,3,4,5,6]
-    n1 = InputToListNode([1,2,4])
-    n2 =InputToListNode([1,3,4])
-    n = so.mergeTwoLists(n1,n2)
+    nums = InputToListNode([1,1,2,3,3])       # 876.  #206 [1,2,3,4,5,6]
+    # n1 = InputToListNode([1,2,4])               # 83 [1,1,2,3,3]
+    # n2 =InputToListNode([1,3,4])                # 21
+    n = so.deleteDuplicates(nums)
     print(so.InputtoList(n))
