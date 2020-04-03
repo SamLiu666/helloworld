@@ -35,9 +35,21 @@ class solution:
             for i in res:
                 count += i**2
             return count
-        while True:
-            if n == 1: break
-            else:   n = standard(n)
+        m = set()
+        while n != 1:
+            n = standard(n)
+            if n in  m: return False
+            else:       m.add(n)
+        return True
+
+    def ishappy(self, n:int):
+        all_number = set()
+        while n !=1:
+            n = sum([int(i) ** 2 for i in str(n)])
+            if n in all_number:
+                return False
+            else:
+                all_number.add(n)
         return True
 
 
@@ -46,3 +58,4 @@ if __name__ == '__main__':
     # nums =  [2,2,1]
     n = 19
     print(s.isHappy(n))
+    print( s.ishappy(n))
