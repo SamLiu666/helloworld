@@ -5,7 +5,7 @@ class Learning:
     """学习提醒"""
     def __init__(self, interval=1, web="https://www.baidu.com/", counts=2, music=False):
         # 初始化
-        self.interval = interval    # 学习时间
+        self.interval = interval   # 学习时间
         self.web = web              # 开启网页
         self.counts = counts        # 学习一次循环次数，默认至少1次
         self.music = music          # 默认不播放音乐

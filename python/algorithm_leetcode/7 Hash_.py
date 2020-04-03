@@ -47,6 +47,48 @@ class Hash_solution:
         if len(key) == len(values): return True
         else:   return False
 
+    # 811, Subdomain Visit Count
+    def subdomainVisit(self, cpdomains:List[str])->List[str]:
+        dic = {}
+        for domains in cpdomains:
+            n, sd = domains.split()     # split 切割字符串，返回列表
+            n = int(n)
+            segment = sd.split(".")     # 切割 域名
+            for i in range(len(segment)):
+                subdomains = ".".join(segment[i:])  # 从i 开始往后连接
+                # if subdomains in dic:
+                #     dic[subdomains] += n
+                # else:
+                #     dic[subdomains] = n
+                dic[subdomains] = dic[subdomains] + n  if subdomains in dic else n
+        return [ str(dic[key])+" " + key  for key, value in dic.items()]
+        # print(dic)
+        # res = []
+        # for key in dic.keys():
+        #     s =str(dic[key])+ " " + key
+        #     res.append(s)
+        # return res
+
+    # 1160  Find Words That Can Be Formed by Characters
+    def counterCharacter(self, words:List[str], chars:str):
+        count = 0
+        for word in words:
+            # The all() function returns True if all items in an iterable are true, otherwise it returns False. If the iterable object is empty, the all() function also returns True.
+            if all(Counter(word)[ch] <= Counter(chars)[ch] for ch in word):
+                count += len(word)
+        return count
+
+    def singleNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        a = 0
+        for i in nums:
+            a ^= i  # A 异或 A = 0， 则全部异或最后剩下的就是唯一出现的
+        return a
+
+
 if __name__ == '__main__':
     hh = Hash_solution()
     # nums = [8,1,2,2,3]      # 1365  [8,1,2,2,3]  -> [4, 0, 1, 1, 3]
@@ -55,4 +97,9 @@ if __name__ == '__main__':
     S = "aAAbbbb"       # 771
     n = [5,1,5,2,5,3,5,4]       # 961. Repeted times
     arr = [1, 2, 2, 1, 1, 3]    # 1207 True
-    print(hh.uniqueOccurrences(arr))
+    # print(hh.uniqueOccurrences(arr))
+    sv =["900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"]    # 811 ["9001 discuss.leetcode.com"]
+    words =  ["cat","bt","hat","tree"]  # 1160 ["hello", "world", "leetcode"]
+    chars ="atach"      #  "welldonehoneyr"
+    n = [4,1,2,1,2]
+    print(hh.singleNumber(n))
