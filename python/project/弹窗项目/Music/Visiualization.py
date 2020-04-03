@@ -42,5 +42,4 @@ class tk_window(tk.Tk):
 if __name__ == '__main__':
     #
     # app = tk_window(2)  # 设定初始学习次数
-    app = EntryApp()
-    app.mainloop()
+    pass
