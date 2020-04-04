@@ -52,10 +52,19 @@ class solution:
                 all_number.add(n)
         return True
 
+    # 4/3
+    def moveZeroes(self, nums:List[int]):
+        for i in nums:
+            if i == 0:
+                nums.remove(i)
+                nums.append(0)
+        return nums
 
 if __name__ == '__main__':
     s = solution()
     # nums =  [2,2,1]
     n = 19
-    print(s.isHappy(n))
-    print( s.ishappy(n))
+    nums = [0,1,0,3,12]
+    print(s.isHappy(n),  s.ishappy(n))
+    print(s.moveZeroes(nums))
+
