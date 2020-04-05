@@ -38,6 +38,20 @@
 5. 获取输入学习数值
 6. 。。。
 
+## 进度
+
+**完成**
+
+单击按钮开始学习
+
+图片显示  
+
+按钮外观	
+
+**待完成**
+
+获取文本数字
+
 # 程序打包成exe 可执行文件
 
 https://blog.csdn.net/lzy98/article/details/83246281?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task

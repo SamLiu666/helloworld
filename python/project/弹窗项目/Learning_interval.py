@@ -4,17 +4,19 @@ import time, easygui, winsound, pygame, webbrowser
 class Learning:
     """学习提醒"""
 
-    def __init__(self, interval=1, web="https://www.baidu.com/", counts=2, music=False):
+    def __init__(self, interval=1, web="https://www.baidu.com/", counts=2, music=False, stop = False):
         # 初始化
-        self.interval = interval  # 学习时间
+        self.interval = interval*3  # 学习时间
         self.web = web  # 开启网页
         self.counts = counts  # 学习一次循环次数，默认至少1次
         self.music = music  # 默认不播放音乐
+        self.stop = stop
 
     def start_(self):
         # 主要部分
         freq = 0
         while freq < self.counts:
+            if self.stop == True:   break   # 强制退出
             time.sleep(self.interval)  # 设定为分钟，参数不要设置和time一样
             webbrowser.open(self.web)
             # 决定是否播放音乐

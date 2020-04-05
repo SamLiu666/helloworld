@@ -24,10 +24,9 @@ r = tk.Tk()
 # r.geometry('600x600')
 r.title("Study window")
 # 加载图片
-
-im = Image.open(r"D:\东蒙 人工智能课程\cs learning git\python\Project\弹窗项目\test.jpg")
+im = Image.open(r"D:\东蒙 人工智能课程\cs learning git\python\Project\弹窗项目\picture\study.jpg")
 img = ImageTk.PhotoImage(im)
-imLabel=tk.Label(r,image=img).pack()
+imLabel=tk.Label(r,image=img).pack(padx=0, pady=10)
 
 # 1. 单击按钮 确定是否执行学习程序
 btn = tk.Button(master=r, text = "学习开始")
@@ -48,9 +47,11 @@ def get_int():
 
 entry = tk.Entry(master=r)
 entry.pack()
-btn2 = tk.Button(master=r, text="输入学习次数", command =get_int).pack()
-# l1 = tk.Label(r, test="整数")
-# l1.pack()
+l1 = tk.Label(r, test="学习次数")
+l1.pack()
+btn2 = tk.Button(master=r, text="输入学习次数", command =get_int, show="请输入整数").pack(side='RIGHT')
+
+#
 
 # 结束按钮
 btn1 = tk.Button(master=r, text = "结束学习")
