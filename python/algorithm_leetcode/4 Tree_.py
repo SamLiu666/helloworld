@@ -8,6 +8,11 @@ class TreeNode():
         self.left = None
         self.right = None
 
+class Node:
+    def __init__(self, val=None, children=None):
+        self.val = val
+        self.children = children
+
 def StringtoInt(input):
     return int(input)
 
@@ -59,6 +64,7 @@ def StringToTree(input):
     print(res, type(nodeQueue), len(nodeQueue))
     return root
 
+# 待完善
 def ListToTree(input:List):
     res = []    # 存放输入的树的结构
     root = TreeNode(input[0])
@@ -91,7 +97,28 @@ def ListToTree(input:List):
         
     print(res, len(nodeQueue))
     return root
-        
+
+
+def show_Tree_by_String(root: TreeNode):
+    """show tree"""
+    if not root:
+        return "[]"
+    output = ""
+    queue = [root]
+    current = 0
+    while current != len(queue):
+        node = queue[current]
+        current = current + 1
+
+        if not node:
+            output += "null, "
+            continue
+
+        output += str(node.val) + ", "
+        queue.append(node.left)
+        queue.append(node.right)
+    return "[" + output[:-2] + "]"
+
 class Tree_Solution:
 
     # 938. Range Sum of BST
@@ -110,12 +137,22 @@ class Tree_Solution:
         return self.ans
 
 
+    # 617 Merge two binary tree
+    def mergeTrees(self, t1: TreeNode, t2: TreeNode) -> TreeNode:
+        if t1 is None:  return t2
+        if t2 is None:  return t1
+        t1.val = t1.val + t2.val
+        t1.left = self.mergeTrees(t1.left, t2.left)
+        t1.right = self.mergeTrees(t1.right, t2.right)
+        return t1
+
 if __name__ == '__main__':
-    input = '10,5,15,3,7,null,18'
-    root = [10,5,15,3,7, None ,18]
-    # nums = StringToTree(input)
-    n2 = ListToTree(root)
+    # input = '10,5,15,3,7,null,18'  # 938 ->32
+    # t1, t2 = '1,3,2,5' , '2,1,3,null , 4,null , 7'
+    # n1 = StringToTree(t1)
+    # n2 = StringToTree(t2) # 617
     t =Tree_Solution()
+
 
     # print(t.rangeSumBST(nums, 7, 15) )
     # print(t.rangeSumBST(n2, 7, 15) )

@@ -11,7 +11,7 @@ def hello():
     learning_bool = tkinter.messagebox.askyesno('提示', '确定要开始学习吗')#是/否，返回值true/false
     count = 0
     if learning_bool == True:
-        s = Learning()
+        s = Learning(counts=3)
         print("学习中。。。")
         s.start_()
         count += s.counts
@@ -20,14 +20,12 @@ def hello():
     else:
         print("取消学习")
 
-def show_jpg():
-    r = tk.Tk()
-
 r = tk.Tk()
 # r.geometry('600x600')
 r.title("Study window")
 # 加载图片
-im = Image.open("test.jpg")
+
+im = Image.open(r"D:\东蒙 人工智能课程\cs learning git\python\Project\弹窗项目\test.jpg")
 img = ImageTk.PhotoImage(im)
 imLabel=tk.Label(r,image=img).pack()
 
@@ -39,18 +37,25 @@ btn.config(command=hello)       # 不加括号，点击才运行
 
 
 # 获取文本框内容
-tex = tk.Label(master=r, text="请输入学习次数: ").pack()   # 标签
-r.textInt = tk.StringVar()
-r.textEntry = tk.Entry(master=r, textvariable=r.textInt)
-r.textInt.set("")
-r.textEntry.pack()
+def get_int():
+    try:
+        freq = int(entry.get())
+        print(freq)
+        tk.messagebox.showinfo("提示", "已确定学习: "+ str(freq) + " 次\n" + "请点击开始学习按钮")
+        return freq
+    except:
+        tk.messagebox.showwarning("警告", "请输入整数")
 
-print(r.textInt.get())
-
-r.mainloop()
+entry = tk.Entry(master=r)
+entry.pack()
+btn2 = tk.Button(master=r, text="输入学习次数", command =get_int).pack()
+# l1 = tk.Label(r, test="整数")
+# l1.pack()
 
 # 结束按钮
 btn1 = tk.Button(master=r, text = "结束学习")
 btn1.pack(padx=100,pady=50 )         # 放置按钮的坐标位置 (side='top',
 # r.destroy()     # 结束敞口
-btn.config(command=r.destroy)
+btn1.config(command=r.destroy)
+
+r.mainloop()

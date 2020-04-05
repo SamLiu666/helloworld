@@ -42,6 +42,7 @@ class solution:
             else:       m.add(n)
         return True
 
+    # 4/2
     def ishappy(self, n:int):
         all_number = set()
         while n !=1:
@@ -53,6 +54,16 @@ class solution:
         return True
 
     # 4/3
+    def maxSubArray(self, nums: List[int]) -> int:
+        # DP，找到当前最大值，全部最大值取当前最大值和之前最大值的最大值~
+        if not nums: return 0
+        cursum, maxsum = nums[0], nums[0]
+        for num in nums[1:]:
+            cursum = max(num, cursum + num)
+            maxsum = max(maxsum, cursum)
+        return maxsum
+
+    # 4/4
     def moveZeroes(self, nums:List[int]):
         for i in nums:
             if i == 0:
@@ -60,11 +71,24 @@ class solution:
                 nums.append(0)
         return nums
 
+    # 4/5
+    def maxProfit(self, prices: List[int]) -> int:
+        profit = 0
+        for i in range(len(prices)-1):
+            cur = prices[i+1] - prices[i]
+            if cur >0:
+                profit += cur
+        return profit
+
 if __name__ == '__main__':
     s = solution()
     # nums =  [2,2,1]
-    n = 19
-    nums = [0,1,0,3,12]
-    print(s.isHappy(n),  s.ishappy(n))
-    print(s.moveZeroes(nums))
+    # n = 19
+    # nums = [0,1,0,3,12]
+    # print(s.isHappy(n),  s.ishappy(n))
+    # print(s.moveZeroes(nums))
+    # nums = [-2,1,-3,4,-1,2,1,-5,4]
+    nums = [7,1,5,3,6,4]
+    nums2 = [1,2,3,4,5]
+    print(s.maxProfit(nums), s.maxProfit(nums2))
 
