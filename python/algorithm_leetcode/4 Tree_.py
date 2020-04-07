@@ -61,7 +61,7 @@ def StringToTree(input):
             nodeQueue.append(node.right)
 
             res.append(node.right.val)
-    print(res, type(nodeQueue), len(nodeQueue))
+    print('Tree:',res, type(nodeQueue), len(nodeQueue))
     return root
 
 # 待完善
@@ -182,6 +182,38 @@ class Tree_Solution:
         inorder(root)
         return ans.right
 
+    # 559. Maximum Depth of N-ary Tree
+    def maxDepth(self, root: 'Node') -> int:
+        if root == None:
+            return 0
+        depth = 0
+        for child in root.children:
+            depth = max(depth, self.maxDepth(child))
+        print('root ' + str(root.val) + ' depth ' + str(depth + 1))
+        return depth+1
+
+    # 965. Univalued Binary Tree
+    def isUnivalTree(self, root:TreeNode):
+        res = []
+        def DFS(root:TreeNode):
+            if root:
+                res.append(root.val)
+                DFS(root.left)
+                DFS(root.right)
+        DFS(root)
+        return len(set(res)) == 1
+
+    # 1022. Sum of Root To Leaf Binary Numbers
+    def sumRootToLeaf(self, root: TreeNode) -> int:
+        val = 0
+        def dfs(root, val):
+            if not root: return 0
+            val = val * 2 + root.val
+            if root.left == root.right: return val
+            return dfs(root.left, val) + dfs(root.right, val)
+        ans =  dfs(root, 0)
+        return ans
+
 if __name__ == '__main__':
     t =Tree_Solution()
     # input = '10,5,15,3,7,null,18'  # 938 ->32
@@ -190,12 +222,19 @@ if __name__ == '__main__':
     # n2 = StringToTree(t2) # 617
     # 700  '4,2,7,1,3' , 2 -> '2,7,1'
     # 897 '5,3,6,2,4,null,8,1,null,null,null,7,9'
-    n = '5,3,6,2,4,null,8,1,null,null,null,7,9'
-    n = StringToTree(n)
-    ans = t.increasingBST(n)
+    # n = '5,3,6,2,4,null,8,1,null,null,null,7,9'
+    # n = StringToTree(n)
+    # ans = t.increasingBST(n)
     # ans = t.searchBST(n, 2)
+    # treeNodeToString(ans)
     # print(type(ans))
-    treeNodeToString(ans)
+    # n = '1,1,1,1,1,null,1'
+    n = '1,0,1,0,1,0,1'
+    n1 = StringToTree(n)
+    ans = t.sumRootToLeaf(n1)
+    print(ans)
+
+
 
 
     # print(t.rangeSumBST(nums, 7, 15) )

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a307c096-451e-4bd1-9d02-853d4e754e27" name="Default Changelist" comment="" />
+    <list default="true" id="a307c096-451e-4bd1-9d02-853d4e754e27" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm_leetcode/April/lApril.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_leetcode/April/lApril.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +30,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Algorithm_leetcode/April/lApril.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="604">
-                  <caret line="94" selection-start-line="94" selection-end-line="94" />
+                <state relative-caret-position="327">
+                  <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
                   <folding>
                     <element signature="e#0#23#0" expanded="true" />
                   </folding>
@@ -39,8 +42,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Algorithm_leetcode/4 Tree_.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="177" selection-start-line="177" selection-end-line="177" />
+                <state relative-caret-position="312">
+                  <caret line="216" column="26" lean-forward="true" selection-start-line="216" selection-start-column="26" selection-end-line="216" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -52,12 +55,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Algorithm_leetcode/4 Tree_.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-773">
-                  <caret line="118" column="4" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
-                  <folding>
-                    <element signature="e#462#1495#0" />
-                    <element signature="e#1535#2350#0" />
-                  </folding>
+                <state relative-caret-position="83">
+                  <caret line="63" column="16" lean-forward="true" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -135,8 +134,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="760" />
-    <option name="y" value="10" />
+    <option name="x" value="704" />
+    <option name="y" value="74" />
     <option name="width" value="1672" />
     <option name="height" value="942" />
   </component>
@@ -374,7 +373,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="760" y="10" width="1672" height="942" extended-state="0" />
+    <frame x="704" y="74" width="1672" height="942" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14014688" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -382,7 +382,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3254364" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4982554" weight="0.30074257" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.62376237" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37376237" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -429,8 +429,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Algorithm_leetcode/4 Tree_.py</url>
-          <line>180</line>
-          <option name="timeStamp" value="8" />
+          <line>209</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -618,16 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm_leetcode/April/lApril.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -638,10 +628,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm_leetcode/April/lApril.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm_leetcode/4 Tree_.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        <state relative-caret-position="312">
+          <caret line="216" column="26" lean-forward="true" selection-start-line="216" selection-start-column="26" selection-end-line="216" selection-end-column="26" />
         </state>
       </provider>
     </entry>

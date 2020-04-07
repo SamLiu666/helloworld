@@ -80,6 +80,29 @@ class solution:
                 profit += cur
         return profit
 
+    # 4/6
+    def groupAnagrams(self, strs:List[str]):
+        if not strs:    return None
+        dic = {}
+        for s in strs:
+            ch = "".join(sorted(s))
+            if ch in dic:    dic[ch] += [s]
+            else:           dic[ch] = [s]
+        return dic.values()
+
+    # 4/7
+    def countElements(self, arr: List[int]) -> int:
+        count, dic = 0, {}
+        for i in arr:
+            if i in dic:    dic[i] += 1
+            else:           dic[i] = 1
+        arr1 = set(arr)
+        for i in arr1:
+            if i+1 in dic:
+                count += dic[i]
+        return count
+
+
 if __name__ == '__main__':
     s = solution()
     # nums =  [2,2,1]
@@ -88,7 +111,11 @@ if __name__ == '__main__':
     # print(s.isHappy(n),  s.ishappy(n))
     # print(s.moveZeroes(nums))
     # nums = [-2,1,-3,4,-1,2,1,-5,4]
-    nums = [7,1,5,3,6,4]
-    nums2 = [1,2,3,4,5]
-    print(s.maxProfit(nums), s.maxProfit(nums2))
+    # nums = [7,1,5,3,6,4]
+    # nums2 = [1,2,3,4,5]
+    # strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
+    # print(s.groupAnagrams(strs))
+    arr = [1, 1, 3, 3, 5, 5, 7, 7]
+    ans = s.countElements(arr)
+    print(ans)
 
