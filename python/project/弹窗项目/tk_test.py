@@ -47,9 +47,9 @@ def get_int():
 
 entry = tk.Entry(master=r)
 entry.pack()
-l1 = tk.Label(r, test="学习次数")
+l1 = tk.Label(r, text="学习次数")
 l1.pack()
-btn2 = tk.Button(master=r, text="输入学习次数", command =get_int, show="请输入整数").pack(side='RIGHT')
+btn2 = tk.Button(master=r, text="输入学习次数", command =get_int).pack()
 
 #
 
