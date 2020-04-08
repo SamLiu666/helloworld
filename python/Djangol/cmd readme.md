@@ -18,8 +18,9 @@ python manage.py runserver
 // 默认端口8080， 添加5050 可改变端口
 python manage.py runserver 5050
 
-python manage.py startapp main   // 创建主文件夹
+python manage.py startapp name_app   // 创建主文件夹，存放应用代码的地方
 
+ 
 ```
 
 ```  python
@@ -33,7 +34,7 @@ python manage.py makemigrations main	# 改变数据模型
 ```
 # <QuerySet [<ToDoList: Ton's List>, <ToDoList: Tim's List>, <ToDoList: First Lis>, <ToDoList: Second Lis>]>
 
-python shell
+python manage.py shell
 from main.models import Item, ToDoList
  t = ToDoList.objects
 ToDoList.objects.all()
@@ -68,3 +69,31 @@ t.all()
 </html>
 ```
 
+# 个人博客
+
+##  创建django 项目
+
+```
+// create project Django
+django-admin startproject mysite 
+
+// 在创建文件下运行服务器
+python manage.py runserver
+
+// 默认端口8080， 添加5050 可改变端口
+python manage.py runserver 5050
+
+python manage.py startapp name_app   // 创建主文件夹，存放应用代码的地方
+```
+
+setting 更改
+
+1. django 如何接收 HTTP 请求？
+2. django 如何处理这个 HTTP 请求？
+3. django 如何生成 HTTP 响应？
+
+
+
+#  进度
+
+4/7  https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/64/
