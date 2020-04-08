@@ -11,7 +11,7 @@ def hello():
     learning_bool = tkinter.messagebox.askyesno('提示', '确定要开始学习吗')#是/否，返回值true/false
     count = 0
     if learning_bool == True:
-        s = Learning(counts=3)
+        s = Learning(counts=3, music = True)
         print("学习中。。。")
         s.start_()
         count += s.counts

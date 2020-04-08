@@ -211,8 +211,40 @@ class Tree_Solution:
             val = val * 2 + root.val
             if root.left == root.right: return val
             return dfs(root.left, val) + dfs(root.right, val)
-        ans =  dfs(root, 0)
+        ans = dfs(root, 0)
         return ans
+
+    # 872. Leaf-Similar Trees
+    def leafSimilar(self, root1:TreeNode, root2:TreeNode):
+        # DFS算法，当无左右节点时，取叶子节点值；先左后右
+        def dfs(root:TreeNode, res:List):
+            if not root.left and not root.right:    res.append(root.val)
+            if root.left:   dfs(root.left, res)
+            if root.right: dfs(root.right, res)
+            return res
+        res1, res2 = [], []
+        return dfs(root1, res1) == dfs(root2, res2)
+
+    # 104. Maximum Depth of Binary Tree
+    def maxDepth(self, root: TreeNode) -> int:
+        if not root:
+            return 0
+        l_depth = 1+self.maxDepth(root.left)
+        r_depth = 1+self.maxDepth(root.right)
+        return max(l_depth, r_depth)
+        # return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
+
+    # 226. Invert Binary Tree
+    def invertTree(self, root: TreeNode) -> TreeNode:
+        if not root:    return None
+        root.left, root.right = self.invertTree(root.right), self.invertTree(root.left)
+        return root
+
+    # 590. N-ary Tree Postorder Traversal
+    def postorder(self, root: 'Node') -> List[int]:
+        def dfs(root, res):
+            if not root.children:   res.append(root.val)
+
 
 if __name__ == '__main__':
     t =Tree_Solution()
@@ -229,13 +261,13 @@ if __name__ == '__main__':
     # treeNodeToString(ans)
     # print(type(ans))
     # n = '1,1,1,1,1,null,1'
-    n = '1,0,1,0,1,0,1'
+    # n = '1,0,1,0,1,0,1'
+    n = '3,9,20,null,null,15'
+    n = '4,2,7,1,3,6,9'
     n1 = StringToTree(n)
-    ans = t.sumRootToLeaf(n1)
-    print(ans)
-
-
-
+    ans = t.invertTree(n1)
+    treeNodeToString(ans)
+    # print(ans)
 
     # print(t.rangeSumBST(nums, 7, 15) )
     # print(t.rangeSumBST(n2, 7, 15) )

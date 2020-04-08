@@ -7,7 +7,7 @@ from Learning_interval import Learning
 
 class Learning_Window(tk.Tk):
 
-    def __init__(self, freq=1, music = False):
+    def __init__(self, freq=2, music = False):
         super(Learning_Window, self).__init__()
         self.freq = freq    # 默认两次
         self.music = music
@@ -46,14 +46,14 @@ class Learning_Window(tk.Tk):
         self.btn3.config(command=self.play_music)  # 不加括号，点击才运行
 
         # 提前结束按钮
-        self.btn3 = tk.Button(master=self, text="退出", command =  self.destroy).pack(padx=0, pady=20)
+        self.btn3 = tk.Button(master=self, text="退出", command =  self.exit_window).pack(padx=0, pady=20)
 
     # 3. 窗口 实现功能： 单击开始学习，获取学习次数，提前结束学习，记录学习次数
     def start_learning(self):
         learning_bool = tkinter.messagebox.askyesno('提示', '确定要开始学习吗')  # 是/否，返回值true/false
         count = 0
         if learning_bool == True:
-            s = Learning(counts=self.freq, interval=1)      # 设定 学习次数，学习时长
+            s = Learning(counts=self.freq)      # 设定 学习次数，学习时长
             s.music = self.music            # 是否播放音乐 bool
             print("学习中。。。")
             s.start_()
@@ -83,6 +83,10 @@ class Learning_Window(tk.Tk):
     def play_music(self):
         self.music = tkinter.messagebox.askyesno('提示', '学习结束播放音乐吗？\n 确定后点击开始学习按钮')  # 是/否，返回值true/false
 
+    # 7、结束退出程序
+    def exit_window(self):
+        self.destroy()
+        print("已退出学习")
 
 if __name__ == '__main__':
     win = Learning_Window()

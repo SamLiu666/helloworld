@@ -17,3 +17,4 @@ aa = heloo.split()
 
 n, ss = heloo.split()
 print(n, ss, type(n),aa)
+print(5//2)

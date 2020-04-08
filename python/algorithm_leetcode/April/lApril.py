@@ -2,6 +2,11 @@ from typing import List
 from collections import Counter
 
 """2020 04 mouth leetcode program"""
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
 class solution:
 
     # 4/ 1Single Number
@@ -102,6 +107,13 @@ class solution:
                 count += dic[i]
         return count
 
+    # 4/8
+    def middleNode(self, head: ListNode) -> ListNode:
+        fast =  low = head
+        while fast and fast.next:
+            low = low.next
+            fast = fast.next.next
+        return low
 
 if __name__ == '__main__':
     s = solution()
