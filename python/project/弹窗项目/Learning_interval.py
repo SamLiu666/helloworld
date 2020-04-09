@@ -7,7 +7,7 @@ class Learning:
 
     def __init__(self,interval=1, web="https://www.baidu.com/", counts=2, music=False, stop = False, freq=0):
         # 初始化
-        self.interval = interval * 45 *60      # 学习时间
+        self.interval = interval*60      # 学习时间* 45 *60
         self.web = web  # 开启网页
         self.counts = counts  # 学习设定一次循环次数，默认至少1次
         self.music = music  # 默认不播放音乐

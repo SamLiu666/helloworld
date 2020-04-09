@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fe90285-ccc1-410e-90e7-2a98dc1870bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2 核心概念.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NLP/small try/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NLP/small try/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../python/project/弹窗项目/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/project/弹窗项目/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../python/project/弹窗项目/Learning_interval.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/project/弹窗项目/Learning_interval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../python/project/弹窗项目/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/project/弹窗项目/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="6fe90285-ccc1-410e-90e7-2a98dc1870bd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +10,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2 核心概念.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+            <state relative-caret-position="184">
+              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -31,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/Anaconda/envs/tensorflow2.0/Lib/site-packages/tensorflow/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="897">
               <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
@@ -40,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/Anaconda/envs/tensorflow2.0/Lib/site-packages/tensorflow/python/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="1104">
               <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
@@ -49,13 +43,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/Anaconda/envs/tensorflow2.0/Lib/site-packages/tensorflow/python/pywrap_tensorflow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="483">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://D:/Anaconda/envs/tensorflow2.0/Lib/site-packages/tensorflow/python/platform/self_check.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="174">
@@ -94,8 +88,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1962" />
-    <option name="y" value="114" />
+    <option name="x" value="226" />
+    <option name="y" value="55" />
     <option name="width" value="1236" />
     <option name="height" value="784" />
   </component>
@@ -120,6 +114,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -176,15 +171,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21086037" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15753424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5336927" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4295011" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -199,33 +193,23 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2 核心概念.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Anaconda/envs/tensorflow2.0/Lib/site-packages/tensorflow/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="897">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/Anaconda/envs/tensorflow2.0/Lib/site-packages/tensorflow/python/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="1104">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/Anaconda/envs/tensorflow2.0/Lib/site-packages/tensorflow/python/pywrap_tensorflow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="483">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
@@ -234,6 +218,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2 核心概念.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
