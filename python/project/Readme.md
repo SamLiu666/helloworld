@@ -40,3 +40,5 @@ setting 更改
 4/8 [创作后台开启，请开始你的表演](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/65/)
 
 4/9 [页面侧边栏：使用自定义模板标签](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/70/)
+
+https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/71/

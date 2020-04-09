@@ -115,6 +115,21 @@ class solution:
             fast = fast.next.next
         return low
 
+    # 4/9
+    def backspaceCompare(self, S: str, T: str) -> bool:
+        def handle(s:str, res):
+            if not s: return ""
+            for ch in s:
+                if res and ch == '#':   res.pop()
+                if ch != '#':           res.append(ch)
+            return "".join(res)
+        res1, res2 = [], []
+        res1 = handle(S, res1)
+        res2 = handle(T, res2)
+        print(res1,res2)
+        return res1 == res2
+
+
 if __name__ == '__main__':
     s = solution()
     # nums =  [2,2,1]
@@ -127,7 +142,9 @@ if __name__ == '__main__':
     # nums2 = [1,2,3,4,5]
     # strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
     # print(s.groupAnagrams(strs))
-    arr = [1, 1, 3, 3, 5, 5, 7, 7]
-    ans = s.countElements(arr)
+    # arr = [1, 1, 3, 3, 5, 5, 7, 7]
+    S = "y#fo##f"
+    T = "y#f#o##f"
+    ans = s.backspaceCompare(S,T)
     print(ans)
 

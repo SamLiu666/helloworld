@@ -18,3 +18,5 @@ aa = heloo.split()
 n, ss = heloo.split()
 print(n, ss, type(n),aa)
 print(5//2)
+s = {1,3,4,3}
+print(s[0])

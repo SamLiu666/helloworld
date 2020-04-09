@@ -119,6 +119,7 @@ def treeNodeToString(root:TreeNode):
     print("[" + output[:] + "]")
     return "[" + output[:] + "]"
 
+
 class Tree_Solution:
 
     # 938. Range Sum of BST
@@ -136,7 +137,6 @@ class Tree_Solution:
         self.ans = 0
         dfs(root)
         return self.ans
-
 
     # 617 Merge two binary tree
     def mergeTrees(self, t1: TreeNode, t2: TreeNode) -> TreeNode:
@@ -163,10 +163,14 @@ class Tree_Solution:
     # 700. Search in a Binary Search Tree
     def searchBST(self, root: object, val: object) -> object:
         # 二叉树特性，左边比节点小， 右边比节点大
-        if not root:            return None
-        if root.val == val:     return root
-        elif val<root.val :     return self.searchBST(root.left, val)
-        else:                   return self.searchBST(root.right, val)
+        if not root:
+            return None
+        if root.val == val:
+            return root
+        elif val<root.val :
+            return self.searchBST(root.left, val)
+        else:
+            return self.searchBST(root.right, val)
 
     # 897. Increasing Order Search Tree
     def increasingBST(self, root: TreeNode) -> TreeNode:
