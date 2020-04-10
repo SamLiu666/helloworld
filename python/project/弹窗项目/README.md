@@ -65,3 +65,58 @@ Q：强制中断 time.sleep()
 # 程序打包成exe 可执行文件
 
 https://blog.csdn.net/lzy98/article/details/83246281?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
+
+| 软件        |                                      |
+| ----------- | ------------------------------------ |
+| py2exe      | 打包好的 exe只能在相同的系统下运行， |
+| pyinstaller | import 库问题                        |
+| cx_Freeze   |                                      |
+
+```java
+//https://github.com/pyinstaller/pyinstaller克隆项目pyinstaller
+cd F:\pyinstaller-develop\bootloader
+//build the bootloader 运行
+python ./waf configure build install
+//重新进入根目录
+cd F:\pyinstaller-develop
+//安装pyinstaller
+python setup.py install
+//等待安装成功
+```
+
+问题
+
+     raise ValueError("Can't mix absolute and relative paths") from None
+    ValueError: Can't mix absolute and relative paths
+
+
+
+使用 cx_Freeze 操作
+
+1、在项目下新建setup.py 文件
+
+```python
+from cx_Freeze import setup, Executable
+
+setup(
+    name = 'learning',
+    version = '0.1',
+    description = 'Parse Stuff',
+    executables = [Executable('main.py')]
+
+)
+```
+
+
+
+2、当前目录下 cmd
+
+在要打包的文件下，加入system('pause')，防止生成的exe 文件崩溃
+
+python setup.py build
+
+
+
+Q：图片 音乐库需要额外导入，不然在其他电脑上会报错
+
+exe 拖入 cmd 会显示报错信息
