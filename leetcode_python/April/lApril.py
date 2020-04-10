@@ -128,6 +128,33 @@ class solution:
         res2 = handle(T, res2)
         print(res1,res2)
         return res1 == res2
+    
+
+# 4/10
+class MinStack:
+
+    def  __init__(self):
+        self.res = []
+
+    def push(self, x):
+        if not self.res:
+            self.res.append( (x,x) )
+        else:
+            self.res.append( (x, min(x, self.res[-1][1])))
+
+    def pop(self):
+        if self.res:
+            self.res.pop()
+        else:
+            return None
+
+    def top(self):
+        if self.res:
+            return self.res[-1][0]
+
+    def getMin(self):
+        if self.res:
+            return self.res[-1][1]
 
 
 if __name__ == '__main__':
@@ -143,8 +170,15 @@ if __name__ == '__main__':
     # strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
     # print(s.groupAnagrams(strs))
     # arr = [1, 1, 3, 3, 5, 5, 7, 7]
-    S = "y#fo##f"
-    T = "y#f#o##f"
-    ans = s.backspaceCompare(S,T)
-    print(ans)
-
+    # S = "y#fo##f"
+    # T = "y#f#o##f"
+    # ans = s.backspaceCompare(S,T)
+    # print(ans)
+    obj = MinStack()
+    obj.push(3)
+    obj.push(2)
+    obj.push(-1)
+    # obj.pop()
+    param_3 = obj.top()
+    param_4 = obj.getMin()
+    print(param_3,param_4)

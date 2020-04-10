@@ -1,6 +1,6 @@
 """https://leetcode.com/tag/tree/"""
 from typing import List
-
+import collections
 
 class TreeNode():
     def __init__(self, x):
@@ -249,6 +249,43 @@ class Tree_Solution:
         def dfs(root, res):
             if not root.children:   res.append(root.val)
 
+    # 1161. Maximum Level Sum of a Binary Tree
+    def maxLevelSum(self, root: TreeNode) -> int:
+        # 队列实现BFS
+        ans, level = 0, 0
+        q = collections.deque()
+        q.append(root)
+        while q:
+            level += 1
+            sum = 0
+            for _ in range(len(q)):
+                node = q.popleft()
+                sum += node.val
+                if node.left:   q.append(node.left)
+                if node.right:  q.append(node.right)
+            if ans < sum:
+                ans, maxlevel = sum, level
+        return maxlevel
+
+    def maxLevelSum1(self, root: TreeNode) -> int:
+        ret, max_sum, lvl = 1, root.val, 1
+        q = [root]
+        while q:
+            tmp = []
+            cur = 0
+            for n in q:
+                cur+=n.val
+                if n.left:
+                    tmp.append(n.left)
+                if n.right:
+                    tmp.append(n.right)
+            if cur>max_sum:
+                max_sum=cur
+                ret = lvl
+            lvl += 1
+            q = tmp
+        return ret
+
 
 if __name__ == '__main__':
     t =Tree_Solution()
@@ -266,12 +303,13 @@ if __name__ == '__main__':
     # print(type(ans))
     # n = '1,1,1,1,1,null,1'
     # n = '1,0,1,0,1,0,1'
-    n = '3,9,20,null,null,15'
-    n = '4,2,7,1,3,6,9'
+    # n = '3,9,20,null,null,15'
+    # n = '4,2,7,1,3,6,9'
+    n = '1,7,0,7,-8,null,null'
     n1 = StringToTree(n)
-    ans = t.invertTree(n1)
-    treeNodeToString(ans)
+    ans = t.maxLevelSum1(n1)
+    print(ans)
+    # treeNodeToString(ans)
     # print(ans)
-
     # print(t.rangeSumBST(nums, 7, 15) )
     # print(t.rangeSumBST(n2, 7, 15) )
