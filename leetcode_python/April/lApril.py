@@ -128,6 +128,21 @@ class solution:
         res2 = handle(T, res2)
         print(res1,res2)
         return res1 == res2
+
+    # 4/10
+    # 4/11
+    def diameterOfBinaryTree(self, root) -> int:
+        # DFS search return the depth sum of left tree and right tree
+        self.ans = 1
+        def depth(node):
+            if not node: return 0
+            L = depth(node.left)
+            R = depth(node.right)
+            self.ans = max(self.ans, L+R+1)
+            return max(L, R) + 1
+
+        depth(root)
+        return self.ans - 1
     
 
 # 4/10
@@ -155,6 +170,8 @@ class MinStack:
     def getMin(self):
         if self.res:
             return self.res[-1][1]
+
+
 
 
 if __name__ == '__main__':

@@ -287,6 +287,21 @@ class Tree_Solution:
         return ret
 
 
+    # Diameter of Binary Tree
+    def diameterOfBinaryTree(self, root: TreeNode) -> int:
+        # DFS search return the depth sum of left tree and right tree
+        self.ans = 1
+        def depth(node):
+            if not node: return 0
+            L = depth(node.left)
+            R = depth(node.right)
+            self.ans = max(self.ans, L+R+1)
+            return max(L, R) + 1
+
+        depth(root)
+        return self.ans - 1
+
+
 if __name__ == '__main__':
     t =Tree_Solution()
     # input = '10,5,15,3,7,null,18'  # 938 ->32
@@ -305,9 +320,10 @@ if __name__ == '__main__':
     # n = '1,0,1,0,1,0,1'
     # n = '3,9,20,null,null,15'
     # n = '4,2,7,1,3,6,9'
-    n = '1,7,0,7,-8,null,null'
+    # n = '1,7,0,7,-8,null,null'
+    n = '1,2,3,4,5'
     n1 = StringToTree(n)
-    ans = t.maxLevelSum1(n1)
+    ans = t.diameterOfBinaryTree(n1)
     print(ans)
     # treeNodeToString(ans)
     # print(ans)
