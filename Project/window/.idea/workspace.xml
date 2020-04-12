@@ -2,157 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c776f4ba-ab74-42b8-a470-2908bb3aa6ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../CS Basic/Computer Network.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS Basic/Git - Source Tree.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS Basic/操作系统.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/.idea/demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/.idea/runConfigurations/Unnamed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/demo/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/demo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/demo/src/main/java/com/example/demo/api/PersonController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/demo/src/main/java/com/example/demo/dao/FakePersonDataAccessService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/demo/src/main/java/com/example/demo/dao/PersonDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/demo/src/main/java/com/example/demo/dao/PersonDataAccessService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/demo/src/main/java/com/example/demo/model/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/demo/src/main/java/com/example/demo/serverce/PersonService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/demo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Fisrt_Spring_project/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/Java learning.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/lib/kotlin-reflect-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/lib/kotlin-reflect.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/lib/kotlin-stdlib-jdk7-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/lib/kotlin-stdlib-jdk7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/lib/kotlin-stdlib-jdk8-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/lib/kotlin-stdlib-jdk8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/lib/kotlin-stdlib-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/lib/kotlin-stdlib.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/lib/kotlin-test-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/lib/kotlin-test.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/META-INF/Java learning.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/Tutorial_1_Java_basic/Basic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/Tutorial_1_Java_basic/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/Tutorial_1_Java_basic/Car_main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/Tutorial_1_Java_basic/Cat_from_dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/Tutorial_1_Java_basic/Class_info_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/Tutorial_1_Java_basic/Dog$InnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/Tutorial_1_Java_basic/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/Tutorial_1_Java_basic/Dog_main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/Tutorial_1_Java_basic/Level_pro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/Tutorial_1_Java_basic/Set_List_Hashmap_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/Tutorial_1_Java_basic/Tutorial_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/Tutorial_1_Java_basic/Vehicle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/demo.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/demo/demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/demo/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/demo/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/demo/demo/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/demo/demo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/demo/demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/demo/demo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/leet_code_java/Array_2d_problem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/leet_code_java/BinarySearchTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/out/production/Java learning/leet_code_java/BinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/src/Tutorial_1_Java_basic/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/src/Tutorial_1_Java_basic/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/src/Tutorial_1_Java_basic/.idea/Tutorial_1_Java_basic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/src/Tutorial_1_Java_basic/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/src/Tutorial_1_Java_basic/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/src/Tutorial_1_Java_basic/Basic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/src/Tutorial_1_Java_basic/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/src/Tutorial_1_Java_basic/Car_main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/src/Tutorial_1_Java_basic/Cat_from_dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/src/Tutorial_1_Java_basic/Class_info_3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/src/Tutorial_1_Java_basic/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/src/Tutorial_1_Java_basic/Dog_main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/src/Tutorial_1_Java_basic/Level_pro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/src/Tutorial_1_Java_basic/Set_List_Hashmap_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/src/Tutorial_1_Java_basic/Tutorial_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/src/Tutorial_1_Java_basic/Vehicle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/src/leet_code_java/Array_2d_problem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/src/leet_code_java/BinarySearchTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/src/leet_code_java/Tree_problem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Java learning/学习记录.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/ArrayandString/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/ArrayandString/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/ArrayandString/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/ArrayandString/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/ArrayandString/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/ArrayandString/ArrayandString.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/ArrayandString/ReadMe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/ArrayandString/out/production/ArrayandString/Array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/ArrayandString/out/production/ArrayandString/META-INF/ArrayandString.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/ArrayandString/out/production/ArrayandString/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/ArrayandString/src/Array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/ArrayandString/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/ArrayandString/src/myString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/JAVA/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/JAVA/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/JAVA/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/JAVA/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/JAVA/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/JAVA/JAVA.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/JAVA/JAVA.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/JAVA/class_object.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/JAVA/out/production/JAVA/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/JAVA/out/production/JAVA/EmployeeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/JAVA/out/production/JAVA/PrimitiveTypeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/JAVA/src/BackTrack_problem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/JAVA/src/DP_problem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/JAVA/src/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/JAVA/src/EmployeeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/JAVA/src/PrimitiveTypeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/JAVA/src/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/JAVA/src/TreeProblem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/LinkedList/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/LinkedList/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/LinkedList/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/LinkedList/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/LinkedList/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/LinkedList/LinkedList.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/LinkedList/LinkedList.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/LinkedList/src/CycleList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/LinkedList/src/SinglyListNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/LinkedList/src/reverseList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/Tree/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/Tree/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/Tree/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/Tree/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/Tree/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/Tree/Tree.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/Tree/src/BinaryTreeTraversal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/Tree/src/a.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/Tree/src/as.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/Tree/tree.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/hashtable queue stack/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/hashtable queue stack/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/hashtable queue stack/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/hashtable queue stack/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/hashtable queue stack/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/hashtable queue stack/hashtable queue stack.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/hashtable queue stack/hashtable.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/hashtable queue stack/out/production/hashtable queue stack/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Leetcode_datastructure_java/hashtable queue stack/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../leetcode_python/Graph/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../leetcode_python/Graph/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -174,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="115">
+              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -186,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Window_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="94" column="58" lean-forward="true" selection-start-line="94" selection-start-column="58" selection-end-line="94" selection-end-column="58" />
+            <state relative-caret-position="713">
+              <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -198,11 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Learning_interval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-603">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -251,12 +98,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="window" type="b2602c69:ProjectViewProjectNode" />
               <item name="window" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="window" type="b2602c69:ProjectViewProjectNode" />
+              <item name="window" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="window" type="b2602c69:ProjectViewProjectNode" />
@@ -272,7 +125,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -501,8 +353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Window_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="94" column="58" lean-forward="true" selection-start-line="94" selection-start-column="58" selection-end-line="94" selection-end-column="58" />
+        <state relative-caret-position="713">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
@@ -512,17 +364,14 @@
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Learning_interval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-603">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -535,8 +384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="115">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
