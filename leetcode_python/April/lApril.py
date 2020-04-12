@@ -1,11 +1,41 @@
+import heapq
 from typing import List
 from collections import Counter
-
 """2020 04 mouth leetcode program"""
+
+
 class ListNode:
     def __init__(self, x):
         self.val = x
         self.next = None
+
+
+# 4/10
+class MinStack:
+
+    def  __init__(self):
+        self.res = []
+
+    def push(self, x):
+        if not self.res:
+            self.res.append( (x,x) )
+        else:
+            self.res.append( (x, min(x, self.res[-1][1])))
+
+    def pop(self):
+        if self.res:
+            self.res.pop()
+        else:
+            return None
+
+    def top(self):
+        if self.res:
+            return self.res[-1][0]
+
+    def getMin(self):
+        if self.res:
+            return self.res[-1][1]
+
 
 class solution:
 
@@ -143,35 +173,19 @@ class solution:
 
         depth(root)
         return self.ans - 1
-    
 
-# 4/10
-class MinStack:
-
-    def  __init__(self):
-        self.res = []
-
-    def push(self, x):
-        if not self.res:
-            self.res.append( (x,x) )
-        else:
-            self.res.append( (x, min(x, self.res[-1][1])))
-
-    def pop(self):
-        if self.res:
-            self.res.pop()
-        else:
-            return None
-
-    def top(self):
-        if self.res:
-            return self.res[-1][0]
-
-    def getMin(self):
-        if self.res:
-            return self.res[-1][1]
-
-
+    # 4/12
+    def lastStoneWeight(self,stones):
+        # h = [-x for x in stones]
+        # heapq.heapify(h)
+        # while len(h) > 1 and h[0] != 0:
+        #     heapq.heappush(h, heapq.heappop(h)-heapq.heappop(h))
+        # return -h[0]
+        for i in range(len(stones)-1):
+            stones.sort()
+            a = stones.pop() - stones.pop()
+            stones.append(a)
+        return stones[0]
 
 
 if __name__ == '__main__':
@@ -191,11 +205,13 @@ if __name__ == '__main__':
     # T = "y#f#o##f"
     # ans = s.backspaceCompare(S,T)
     # print(ans)
-    obj = MinStack()
-    obj.push(3)
-    obj.push(2)
-    obj.push(-1)
-    # obj.pop()
-    param_3 = obj.top()
-    param_4 = obj.getMin()
-    print(param_3,param_4)
+    # obj = MinStack()
+    # obj.push(3)
+    # obj.push(2)
+    # obj.push(-1)
+    # # obj.pop()
+    # param_3 = obj.top()
+    # param_4 = obj.getMin()
+    # print(param_3,param_4)
+    n = [2,7,4,1,8,1]
+    print(s.lastStoneWeight(n))
