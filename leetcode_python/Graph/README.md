@@ -14,6 +14,10 @@
 
 **Bipartite graph** : u and v nodes math each other
 
+![image-20200412173032710](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200412173032710.png)
+
+
+
 # Graph Representation
 
 **Adjacency Matrix** : use matrix to represent graph, O(node*node)
