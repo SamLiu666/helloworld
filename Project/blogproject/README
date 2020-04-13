@@ -1,0 +1,50 @@
+# 项目
+
+根据教程，建立一个博客，实现发布文章，记录标签，日期，可以评论等功能
+
+
+
+# 进度
+
+| 项目进度                                             | 日期      |
+| ---------------------------------------------------- | --------- |
+| 创建djaogo项目，建立数据库，让网页结构化CSS+JS+Index | 2020/4/13 |
+|                                                      |           |
+|                                                      |           |
+
+
+
+# 代码
+
+```python
+# 创建 django 项目
+django-admin startproject blogproject
+
+# 运行本地服务，查看django
+python manage.py runserver
+
+# 创建APP应用存储博客内容
+python manage.py startapp blog
+
+# 迁移数据库内容
+python manage.py makemigrations
+python manage.py migrate
+
+```
+
+
+
+python部分设置
+
+```
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'blog', # 注册 blog 应用
+]
+```
+

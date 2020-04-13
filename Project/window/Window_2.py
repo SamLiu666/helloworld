@@ -89,7 +89,8 @@ class Learning_Window(tk.Tk):
 
     # 5. 窗口放入图片
     def show_picture(self):
-        im = Image.open("picture/test.jpg")
+        im = Image.open(r"D:\东蒙 人工智能课程\cs learning git\Project\window\picture\test.jpg")
+        # im = Image.open("picture/test.jpg")
         global img
         img = ImageTk.PhotoImage(im)
         imLabel = tk.Label(self, image=img).pack()  # 全局变量

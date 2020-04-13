@@ -1,3 +1,4 @@
+import heapq
 from typing import List
 from collections import Counter
 
@@ -6,6 +7,33 @@ class ListNode:
     def __init__(self, x):
         self.val = x
         self.next = None
+
+
+# 4/10
+class MinStack:
+
+    def  __init__(self):
+        self.res = []
+
+    def push(self, x):
+        if not self.res:
+            self.res.append( (x,x) )
+        else:
+            self.res.append( (x, min(x, self.res[-1][1])))
+
+    def pop(self):
+        if self.res:
+            self.res.pop()
+        else:
+            return None
+
+    def top(self):
+        if self.res:
+            return self.res[-1][0]
+
+    def getMin(self):
+        if self.res:
+            return self.res[-1][1]
 
 class solution:
 
@@ -143,35 +171,35 @@ class solution:
 
         depth(root)
         return self.ans - 1
-    
 
-# 4/10
-class MinStack:
+    # 4/12
+    def lastStoneWeight(self, stones: List[int]) -> int:
+        # for i in range(len(stones) - 1):
+        #     stones.sort()
+        #     stones.append(stones.pop() - stones.pop())
+        # return stones[0]
+        h = [-x for x in stones]
+        heapq.heapify(h)
+        while len(h) > 1 and h[0] != 0:
+            heapq.heappush(h, heapq.heappop(h)-heapq.heappop(h))
+        return -h[0]
 
-    def  __init__(self):
-        self.res = []
+    # 4/13
+    def findMaxLength(self, nums: List[int]) -> int:
+        # use hashmap
+        dic, count, maxlen = {}, 0, 0
+        dic[0] = 0
+        for index, n in enumerate(nums, 1):
+            if n == 0:
+                count -= 1
+            else:
+                count += 1
 
-    def push(self, x):
-        if not self.res:
-            self.res.append( (x,x) )
-        else:
-            self.res.append( (x, min(x, self.res[-1][1])))
-
-    def pop(self):
-        if self.res:
-            self.res.pop()
-        else:
-            return None
-
-    def top(self):
-        if self.res:
-            return self.res[-1][0]
-
-    def getMin(self):
-        if self.res:
-            return self.res[-1][1]
-
-
+            if count in dic:
+                maxlen = max(maxlen, index-dic[count])
+            else:
+                dic[count] = index
+        return maxlen
 
 
 if __name__ == '__main__':
@@ -191,11 +219,14 @@ if __name__ == '__main__':
     # T = "y#f#o##f"
     # ans = s.backspaceCompare(S,T)
     # print(ans)
-    obj = MinStack()
-    obj.push(3)
-    obj.push(2)
-    obj.push(-1)
-    # obj.pop()
-    param_3 = obj.top()
-    param_4 = obj.getMin()
-    print(param_3,param_4)
+    # obj = MinStack()
+    # obj.push(3)
+    # obj.push(2)
+    # obj.push(-1)
+    # # obj.pop()
+    # param_3 = obj.top()
+    # param_4 = obj.getMin()
+    # print(param_3,param_4)
+    n = [0, 0, 1, 0, 0, 0, 1, 1]    # 6
+    ans = s.findMaxLength(n)
+    print(ans)
