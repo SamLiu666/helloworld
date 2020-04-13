@@ -2,23 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e88259c9-def0-4872-9097-a4e3a26c9c5f" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/../Project/window/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/window/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project/window/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/window/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Realize DataStucture/1_linked_list.py" afterDir="false" />
+>>>>>>> b8dc3287d15b88523c3977c50dd4372d82c74c47
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0 array.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1 stack.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2 queue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3 Linked_list.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4 Tree_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5 graph_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6 Heap_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7 Hash_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4 Tree_.py" beforeDir="false" afterPath="$PROJECT_DIR$/4 Tree_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5 graph_.py" beforeDir="false" afterPath="$PROJECT_DIR$/5 graph_.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/April/lApril.py" beforeDir="false" afterPath="$PROJECT_DIR$/April/lApril.py" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Graph/1_DFS_BFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/1_DFS_BFS.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Graph/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Realize DataStucture/1_linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Realize DataStucture/1_linked_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module_used/Heap.py" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/../python/project/弹窗项目/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../python/project/弹窗项目/README.md" afterDir="false" />
+>>>>>>> b8dc3287d15b88523c3977c50dd4372d82c74c47
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,25 +35,72 @@
         <entry file="file://$PROJECT_DIR$/April/lApril.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
+<<<<<<< HEAD
               <caret line="102" column="10" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
+=======
+              <caret line="132" column="10" selection-start-line="132" selection-start-column="10" selection-end-line="132" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#3559#4021#0" />
+              </folding>
+>>>>>>> b8dc3287d15b88523c3977c50dd4372d82c74c47
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Graph/1_DFS_BFS.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-23">
               <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4 Tree_.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="290" selection-start-line="290" selection-end-line="301" selection-end-column="27" />
+>>>>>>> b8dc3287d15b88523c3977c50dd4372d82c74c47
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7 Hash_.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6 Heap_.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="437">
+              <caret line="117" column="20" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
+=======
+            <state relative-caret-position="184">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5 graph_.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Realize DataStucture/1_linked_list.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="117" column="20" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
+              <caret line="117" column="20" lean-forward="true" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
+              <folding>
+                <element signature="e#479#503#0" />
+              </folding>
+>>>>>>> b8dc3287d15b88523c3977c50dd4372d82c74c47
             </state>
           </provider>
         </entry>
@@ -77,7 +127,10 @@
         <option value="$PROJECT_DIR$/Realize DataStucture/linked_list.py" />
         <option value="$PROJECT_DIR$/Realize DataStucture/README.md" />
         <option value="$PROJECT_DIR$/Realize DataStucture/1_linked_list.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Graph/1_DFS_BFS.py" />
+=======
+>>>>>>> b8dc3287d15b88523c3977c50dd4372d82c74c47
       </list>
     </option>
   </component>
@@ -103,11 +156,14 @@
             <path>
               <item name="leetcode_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode_python" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Graph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode_python" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> b8dc3287d15b88523c3977c50dd4372d82c74c47
               <item name="Realize DataStucture" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -133,28 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1_DFS_BFS">
-    <configuration name="1_DFS_BFS" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph/1_DFS_BFS.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.1_linked_list">
     <configuration name="1_linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,7 +255,10 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python.1_DFS_BFS" />
+=======
+>>>>>>> b8dc3287d15b88523c3977c50dd4372d82c74c47
         <item itemvalue="Python.1_linked_list" />
         <item itemvalue="Python.4 Tree_" />
         <item itemvalue="Python.lApril" />
@@ -242,13 +280,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+<<<<<<< HEAD
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13804004" />
+=======
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13804004" />
+>>>>>>> b8dc3287d15b88523c3977c50dd4372d82c74c47
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.31127983" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3362256" />
+>>>>>>> b8dc3287d15b88523c3977c50dd4372d82c74c47
       <window_info anchor="bottom" id="Debug" order="3" weight="0.691974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -263,6 +311,7 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Realize DataStucture/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -277,12 +326,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6647">
           <caret line="290" selection-start-line="290" selection-end-line="301" selection-end-column="27" />
+=======
+    <entry file="file://$PROJECT_DIR$/6 Heap_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+>>>>>>> b8dc3287d15b88523c3977c50dd4372d82c74c47
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/7 Hash_.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/5 graph_.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1081">
@@ -308,13 +364,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="102" column="10" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
+=======
+    <entry file="file://$PROJECT_DIR$/4 Tree_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="290" selection-start-line="290" selection-end-line="301" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph/1_DFS_BFS.py">
+    <entry file="file://$PROJECT_DIR$/April/lApril.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="132" column="10" selection-start-line="132" selection-start-column="10" selection-end-line="132" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#3559#4021#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5 graph_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realize DataStucture/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="69">
+            <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+>>>>>>> b8dc3287d15b88523c3977c50dd4372d82c74c47
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realize DataStucture/1_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-23">
           <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+=======
+        <state relative-caret-position="437">
+          <caret line="117" column="20" lean-forward="true" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
+          <folding>
+            <element signature="e#479#503#0" />
+          </folding>
+>>>>>>> b8dc3287d15b88523c3977c50dd4372d82c74c47
         </state>
       </provider>
     </entry>
