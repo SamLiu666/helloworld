@@ -1,8 +1,6 @@
 # define a graph
 from collections import deque
 
-
-
 n = ['A','B','C','D','E','F']
 graph={
     'A':['B','C'],
@@ -32,21 +30,13 @@ graph={
 #     {f, g}
 # ]
 
-
 def dfs(graph, start, visited):
-    """
-    Depth Frist Search
-    :param graph:  graph
-    :param start:  start point
-    :param visited:   point visited and store the path
-    :return:
-    """
     # path =  []   # use set to store the visited points
     visited.append(start)
 
-    neighbors = graph[start]    # search the adjacent points one by one
+    neighbors = graph[start]
     for next in neighbors:
-        if next not in visited:     # if not visited, continue search
+        if next not in visited:
             # visited.append(next)
             dfs(graph, next, visited)
     return visited
@@ -70,10 +60,8 @@ def bfs(graph, start, visited):
 # Tarversal
 visited = []
 path = dfs(graph, 'A', visited)
-path1 = dfs(graph, 'B', visited=[])
-print("DFS: ",path, path1)
+print("DFS: ",path)
 
 visited_2 = []
 path_BFS = bfs(graph, 'A', visited_2)
 print("BFS: ",path_BFS)
-

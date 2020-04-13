@@ -1,69 +1,49 @@
-# 项目功能
+# Persornal Project
+
+This is my first programming project using python. It is used to record studying times, open website and play music after studying. 
+
+# Documentation
+
+**build** : save the project.exe of python
+
+**Music** : store the songs which the project needs
+
+**picture** :  has two pictures for the window
+
+**Learning_interval**: construct the learning class for time, remind, operation
+
+**Window_2** :  build the window class for operating the programming and setting the study data structure
+
+**setup** : use for cxfreeze to create a exe
+
+**mian** :  start this project
+
+# Module
+
+**cxfreeze**  :   transform main.py  into main.exe  for windows operation
+
+**time, winsound, pygame, webbrowser, tkinter PIL** : common modules
+
+## Results
+
+**mian.py**  start
+
+![image-20200412183806254](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200412183806254.png)
 
 
 
-**设计时间间隔，时间到播放音乐，打开网页，**
+# Future Improvement
 
-**休息后重新进入学习模式**
+****
 
-**窗口可视化操作**
+**Five minutes rest after study**
 
-**桌面程序化运行**
-**待完成**：窗口，按钮可视化。窗口输入执行次数，确认后获取传入函数
+**Any time you want to quit**
 
+**run at other computers**
 
-# 设计思路
+## Exeprience
 
-**1 将原有函数类型化**
+**record everytime u write**
 
-在主程序页面修改 学习时间和休息时间
-
-| 内容                                       |      |
-| ------------------------------------------ | ---- |
-| 建立学习提醒类：设置默认参数，各个功能函数 |  20200330    |
-| tkinter 可视化学习窗口                     |    20200331  |
-|  学习窗口类型化               |    20200401  |
-|  学习窗口类型化               |    20200401  |
-
-
-# 实现程序
-
-# 可视化
-## 库 Tkinter
-
-1. 学习窗口， 学习图片
-2. 学习开始按钮，提示窗口：确认是否开始执行
-3. 记录学习次数
-4. 提前终止按钮，点击，程序结束，运行停之
-5. 获取输入学习数值
-6. 。。。
-
-## 进度
-
-**完成**
-
-单击按钮开始学习
-
-图片显示  
-
-按钮外观	
-
-获取文本数字
-
-确定是否播放音乐
-
-获取 文本框中的设定每次学习时间参数
-
- 程序变化为windows 程序， app 等  
-
-**待完成**
-
-Q：强制中断 time.sleep()
-
-强制中断音乐播放程序
-
-Q：计时开始后无法只能强制关闭程序，需要设置一个关闭窗口
-
-# 程序打包成exe 可执行文件
-
-https://blog.csdn.net/lzy98/article/details/83246281?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
+**do more code do more write**
