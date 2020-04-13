@@ -60,3 +60,9 @@ It is a single source shortest path algorithm for graphs with non-negative edge 
 
 **constrains** : graph must only contain non-negative edge weights
 
+![image-20200413094528176](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200413094528176.png)
+
+![image-20200413094959962](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200413094959962.png)
+
+![image-20200413095020671](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200413095020671.png)
+
