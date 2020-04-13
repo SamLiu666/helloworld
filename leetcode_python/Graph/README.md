@@ -43,3 +43,20 @@
 # DFS
 
 **Definition** Depth First Search is used to explore nodes and edges of  graph. O(V+E)
+
+![image-20200413094147155](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200413094147155.png)
+
+
+
+# BFS
+
+**Definition** : Breadth First Search is search all the points level by level
+
+![image-20200413094227392](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200413094227392.png)
+
+# Dijkstras 's Algorithm
+
+It is a single source shortest path algorithm for graphs with non-negative edge weights. O(E*log(v))
+
+**constrains** : graph must only contain non-negative edge weights
+

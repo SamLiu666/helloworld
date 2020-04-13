@@ -1,0 +1,9 @@
+diff a/leetcode_python/Graph/README.md b/leetcode_python/Graph/README.md	(rejected hunks)
+@@ -41,6 +41,7 @@
+ backtrack when the node is visited
+ 
+ ```python
++# DFS traversal
+ n = number of nodes in the graph
+ g = adjacency list representing graph
+ visited = [false, false....] # size the n, initialize
