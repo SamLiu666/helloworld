@@ -201,6 +201,23 @@ class solution:
                 dic[count] = index
         return maxlen
 
+    # 4/14
+    def stringShift(self, s: str, shift: List[List[int]]) -> str:
+        # 符合题意写出限制
+        count, res, length = 0, list(s), len(s)
+        for n in shift:
+            if n[0] == 0:
+                count += n[1]
+            else:
+                count -= n[1]
+
+        count %= length  # 改变大于长度的情况，同时，往右则取余从负为正，可直接输出
+        print(count)
+        return s[count:] + s[:count]
+        # head, tail = res[0:count], res[count:]
+        # ans = tail+head
+        # return "".join(ans)
+
 
 if __name__ == '__main__':
     s = solution()
@@ -227,6 +244,14 @@ if __name__ == '__main__':
     # param_3 = obj.top()
     # param_4 = obj.getMin()
     # print(param_3,param_4)
-    n = [0, 0, 1, 0, 0, 0, 1, 1]    # 6
-    ans = s.findMaxLength(n)
+    # n = [0, 0, 1, 0, 0, 0, 1, 1]    # 6
+    # ans = s.findMaxLength(n)
+    so = "abcdefg"
+    shift = [[1, 1], [1, 1], [0, 2], [1, 3]]
+    ans1 = s.stringShift(so, shift)
+
+    ss = "xqgwkiqpif"
+    shift1 = [[1,4],[0,7],[0,8],[0,7],[0,6],[1,3],[0,1],[1,7],[0,5],[0,6]]
+    ans = s.stringShift(ss,shift1)
     print(ans)
+    # print(ans1)
