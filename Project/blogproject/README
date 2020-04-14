@@ -6,11 +6,11 @@
 
 # 进度
 
-| 项目进度                                             | 日期      |
-| ---------------------------------------------------- | --------- |
-| 创建djaogo项目，建立数据库，让网页结构化CSS+JS+Index | 2020/4/13 |
-|                                                      | 2020/4/14 |
-|                                                      |           |
+| 项目进度                                                     | 日期      |
+| ------------------------------------------------------------ | --------- |
+| 创建djaogo项目，建立数据库，让网页结构化CSS+JS+Index         | 2020/4/13 |
+| 创建博客数据库后台、开发博客文章详情页、博客适用Markdown语法，代码高亮并生成目录 | 2020/4/14 |
+| 自动生成文章摘要、使用自定义模板标签https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/70/ |           |
 
 
 
@@ -29,6 +29,9 @@ python manage.py startapp blog
 # 迁移数据库内容
 python manage.py makemigrations
 python manage.py migrate
+
+# 创建 admin 后台管理员账户
+python manage.py createsuperuser
 
 ```
 
