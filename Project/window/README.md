@@ -28,9 +28,7 @@ This is my first programming project using python. It is used to record studying
 
 **mian.py**  start
 
-![image-20200412183806254](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200412183806254.png)
-
-
+![project_pic](https://raw.githubusercontent.com/SamLiu666/CS-learning-Notes/master/picture%20for%20markdown/pic/1_window_pic.png)
 
 # Future Improvement
 
