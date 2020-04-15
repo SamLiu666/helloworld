@@ -1,8 +1,20 @@
-| 进度               | 日期      |
-| ------------------ | --------- |
-| 4-1,张量的结构操作 | 2020/4/13 |
-|                    |           |
-|                    |           |
+| 进度                     | 日期      |
+| ------------------------ | --------- |
+| 4-1,张量的结构操作       | 2020/4/13 |
+| 5-2,特征列feature_column | 2020/4/15 |
+|                          |           |
+
+```Markdown
+markdown 快捷键
+命令模式 (按键 Esc 开启)
+Enter: 转入编辑模式
+Shift-Enter: 运行本单元，选中下个单元
+Ctrl-Enter: 运行本单元
+Alt-Enter: 运行本单元，在其下插入新单元
+Y: 单元转入代码状态
+M:单元转入markdown状态
+R: 单元转入raw状态
+```
 
 <table>
 <thead>
@@ -276,4 +288,15 @@
 </tr>
 </tbody>
 </table>
+#TensorFlow的中阶API
 
+TensorFlow的中阶API主要包括:
+
+- 数据管道(tf.data)
+- 特征列(tf.feature_column)
+- 激活函数(tf.nn)
+- 模型层(tf.keras.layers)
+- 损失函数(tf.keras.losses)
+- 评估函数(tf.keras.metrics)
+- 优化器(tf.keras.optimizers)
+- 回调函数(tf.keras.callbacks)
