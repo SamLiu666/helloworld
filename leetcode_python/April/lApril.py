@@ -35,6 +35,7 @@ class MinStack:
         if self.res:
             return self.res[-1][1]
 
+# 4/1 -- 4/14
 class solution:
 
     # 4/ 1Single Number
@@ -218,9 +219,50 @@ class solution:
         # ans = tail+head
         # return "".join(ans)
 
+class solution_3:
+
+    # 4/15 Product of Array Except Self
+    def productExceptSelf_1(self, nums: List[int]) -> List[int]:
+        # 方法一，每次计算，每次存储，超时
+        def product(nums, n):
+
+            res = list(nums)  # 新建一个对象，防止改变原有的数组
+            ans = 1
+            res.remove(n)
+            for i in res:
+                ans *= i
+            return ans
+        res = []
+        for n in nums:
+            res.append(product(nums, n))
+        print(nums)
+        return res
+
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+        # 对应的左边乘积*右边
+        length = len(nums)
+        l_product, r_product = [1]*length, [1]*length
+
+        # 左边乘积
+        for i in range(1,length):
+            l_product[i] = l_product[i-1] * nums[i-1]
+        print(l_product)
+
+        # 右边乘积
+        start = length-1-1
+        for i in range(start,-1, -1):
+            r_product[i] = r_product[i+1] * nums[i+1]
+        print(r_product)
+
+        # 总乘积
+        pro = []
+        for i in range(length):
+            ans = r_product[i] * l_product[i]
+            pro.append(ans)
+        return pro
 
 if __name__ == '__main__':
-    s = solution()
+    # s = solution()
     # nums =  [2,2,1]
     # n = 19
     # nums = [0,1,0,3,12]
@@ -246,12 +288,16 @@ if __name__ == '__main__':
     # print(param_3,param_4)
     # n = [0, 0, 1, 0, 0, 0, 1, 1]    # 6
     # ans = s.findMaxLength(n)
-    so = "abcdefg"
-    shift = [[1, 1], [1, 1], [0, 2], [1, 3]]
-    ans1 = s.stringShift(so, shift)
-
-    ss = "xqgwkiqpif"
-    shift1 = [[1,4],[0,7],[0,8],[0,7],[0,6],[1,3],[0,1],[1,7],[0,5],[0,6]]
-    ans = s.stringShift(ss,shift1)
+    # so = "abcdefg"
+    # shift = [[1, 1], [1, 1], [0, 2], [1, 3]]
+    # ans1 = s.stringShift(so, shift)
+    #
+    # ss = "xqgwkiqpif"
+    # shift1 = [[1,4],[0,7],[0,8],[0,7],[0,6],[1,3],[0,1],[1,7],[0,5],[0,6]]
+    # ans = s.stringShift(ss,shift1)
+    # print(ans)
+    # # print(ans1)
+    s_3 = solution_3()
+    n = [1,2,3,4]   # 4/15
+    ans = s_3.productExceptSelf(n)
     print(ans)
-    # print(ans1)

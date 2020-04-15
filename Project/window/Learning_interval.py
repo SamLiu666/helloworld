@@ -36,9 +36,10 @@ class Learning:
     def play_music(self):
         j = self.freq   # 选择乐曲
         pygame.mixer.init()
-        # 设置 要播放音乐的绝对路径
-        music1 = "Music/骄傲的少年.mp3"
-        music2 = "Music/句号.mp3"
+        # 设置 要播放音乐的绝对路径,绝对路径
+        # music1 = "Music/骄傲的少年.mp3"
+        music1 = "D:\东蒙 人工智能课程\cs learning git\Project\window\Music\骄傲的少年.mp3"
+        music2 = "D:\东蒙 人工智能课程\cs learning git\Project\window\Music\句号.mp3"
         if (j == 0):
             pygame.mixer.music.load(music1)
         else:
