@@ -54,6 +54,16 @@
 
 ![image-20200413094227392](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200413094227392.png)
 
+## Applications
+
+1. Shortest path in a graph: the smallest distance 
+2. Web crawler: start from source page
+3. Social network: use the given distance 'k' to search the person relationship
+4. Detecting a cycle in undirected graph
+5. Check if graph is bipartite or not
+6. Broadcasting in a Network
+7. Ford-Fulkerson Algorithm: determine maximum flow in a flow network
+
 # Dijkstras 's Algorithm
 
 It is a single source shortest path algorithm for graphs with non-negative edge weights. O(E*log(v))
@@ -66,3 +76,8 @@ It is a single source shortest path algorithm for graphs with non-negative edge 
 
 ![image-20200413095020671](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200413095020671.png)
 
+# Best-first greedy search
+
+**Definition** : make locally optimal choice at each stage with the hope of finding a global optimum
+
+**constrains**:  Greedy-choice property, optimal substructure

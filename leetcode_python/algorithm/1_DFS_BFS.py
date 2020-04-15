@@ -41,6 +41,7 @@ def dfs(graph, start, visited):
             dfs(graph, next, visited)
     return visited
 
+
 def bfs(graph, start, visited):
     q = deque()   # define a queue structure
     q.append(start)
