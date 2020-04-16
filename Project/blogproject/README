@@ -10,7 +10,9 @@
 | ------------------------------------------------------------ | --------- |
 | 创建djaogo项目，建立数据库，让网页结构化CSS+JS+Index         | 2020/4/13 |
 | 创建博客数据库后台、开发博客文章详情页、博客适用Markdown语法，代码高亮并生成目录 | 2020/4/14 |
-| 自动生成文章摘要、使用自定义模板标签https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/70/ |           |
+| 自动生成文章摘要、使用自定义模板标签，分类、归档和标签页     |           |
+| 微博评论功能,优化博客功能细节，提升使用体验                  |           |
+| Nginx+Gunicorn+Supervisor 部署 Django 博客应用 https://www.bilibili.com/video/av68020610/ |           |
 
 
 
