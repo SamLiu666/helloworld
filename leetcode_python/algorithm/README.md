@@ -14,7 +14,7 @@
 
 **Bipartite graph** : u and v nodes math each other
 
-![image-20200416084642260](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200416084642260.png)
+
 
 
 
@@ -28,7 +28,7 @@
 
 **Question**  Every time ask yourself. Most is about Shortest 
 
-![image-20200411210539268](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200411210539268.png)
+![image-20200411210539268](https://github.com/SamLiu666/CS-learning-Notes/raw/master/picture%20for%20markdown/leetcode_python/algorithm/graph%201%20(1).png)
 
 ## Questions
 
@@ -44,14 +44,11 @@
 # Uniformed Search
 
 **choose the smaller cost and try** : *BFS	DFS	Uniform-cost Search	Iterative Deepening Search*
+![image-20200416084642260](https://github.com/SamLiu666/CS-learning-Notes/raw/master/picture%20for%20markdown/leetcode_python/algorithm/my%20grah%20for%20bfs%20dfs%20.png)
 
 ## DFS
 
 **Definition** Depth First Search is used to explore nodes and edges of  graph. O(V+E)
-
-![image-20200413094147155](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200413094147155.png)
-
-
 
 ## BFS
 
@@ -145,8 +142,7 @@ print("Visited: ", str(nodesvisited))
 # Informed Search
 Gready best-first search, A search, A* search, IDA* Search
 
-![A star ]()
-
+![A star ](https://raw.githubusercontent.com/SamLiu666/CS-learning-Notes/master/picture%20for%20markdown/leetcode_python/algorithm/A%20star%20.png)
 
 
 ## Best-first greedy search
@@ -162,9 +158,7 @@ It is a single source shortest path algorithm for graphs with non-negative edge 
 
 **constrains** : graph must only contain non-negative edge weights
 
-![image-20200413094528176](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200413094528176.png)
+![image-20200413094528176](https://github.com/SamLiu666/CS-learning-Notes/raw/master/picture%20for%20markdown/leetcode_python/algorithm/dj1%20(1).png)
 
-![image-20200413094959962](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200413094959962.png)
 
-![image-20200413095020671](C:\Users\liu\AppData\Roaming\Typora\typora-user-images\image-20200413095020671.png)
 
