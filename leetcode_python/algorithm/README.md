@@ -89,27 +89,27 @@ print("BFS: ",path_BFS)
 
 
 tree = graph
-def bfs_find(array): # 起始目标
+def bfs_find(array): # start
     global tree
     index = 0
     node_layers = [['A']]
-    solution = ['F']  # 以目标初始化
+    solution = ['F']  # goal
     current_target = 'F'
 
-    # 得到访问点的序列
+    # get all the sequence
     while 'F' not in array:
         temp = []
         for item in tree[array[index]]:
             if item in array:
                 continue
-            temp.append(item) # 存储这一层访问的点
+            temp.append(item) # sava node of layer
             array.append(item)
             if item == 'F':
                 break
         node_layers.append(temp)
         index += 1
 
-    # 得到最优路径，从起点到终点
+    # get optimal trace
     for i in range(index-1, 0, -1):
         for j in range(len(node_layers[i])):
             if current_target in tree[node_layers[i][j]]:
