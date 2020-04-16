@@ -25,8 +25,7 @@ SECRET_KEY = 'rr8(^z06&ckujvmi=rxhgdqt5=2^840)t3i2bd7o^hu-w-!f)l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.zmrenwu.com']
 
 # Application definition
 
@@ -82,6 +81,11 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+STATIC_URL = '/static/'
+# 加入下面的配置
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 
 
 # Password validation
