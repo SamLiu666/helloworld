@@ -261,6 +261,34 @@ class solution_3:
             pro.append(ans)
         return pro
 
+    # 4/16 Valid Parenthesis String
+    def checkValidString(self, s: str) -> bool:
+
+        l = r = 0
+        for ch in s:
+            if ch == "(":
+                l += 1
+            else:
+                l -= 1
+            if ch != ")":
+                r += 1
+            else:
+                r -= 1
+            if r<0:
+                break
+            l = max(l, 0)
+        return l == 0
+
+    def check_2(self, s):
+        # do not work for left must before right
+        l, r, star = s.count("("), s.count(")"), s.count("*")
+        lr = l-r
+        if lr == 0:
+            return True
+        else:
+            return abs(l-r) == star
+
+
 if __name__ == '__main__':
     # s = solution()
     # nums =  [2,2,1]
@@ -298,6 +326,8 @@ if __name__ == '__main__':
     # print(ans)
     # # print(ans1)
     s_3 = solution_3()
-    n = [1,2,3,4]   # 4/15
-    ans = s_3.productExceptSelf(n)
+    # n = [1,2,3,4]   # 4/15
+    # ans = s_3.productExceptSelf(n)
+    n = "((*))))" #"(*))"  # 4/16
+    ans = s_3.checkValidString(n)
     print(ans)

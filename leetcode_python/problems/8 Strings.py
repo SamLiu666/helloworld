@@ -53,13 +53,56 @@ class Solution:
 
     # 1309. Decrypt String from Alphabet to Integer Mapping
     def freqAlphabets(self, s: str) -> str:
-        # re.findall()在字符串中找到正则表达式所匹配的所有子串，并返回一个列表，如果没有找到匹配的，则返回空列表。
+        # re.findall() find all the element fitting the pattern, return them as a list。
         match = re.findall(r'\d\d#|\d', s)
         print(match)
         ans = ""
         for n in match:
             ans +=chr(int(n[:2])+96)
         return ans
+
+    # 1374. Generate a String With Characters That Have Odd Counts
+    def generateTheString(self, n: int) -> str:
+        # odd times
+        if n % 2 == 1:
+            return 'a' * n
+        else:
+            return 'a' * (n-1) + 'b'
+
+    # 657. Robot Return to Origin
+    def judgeCircle(self, moves: str) -> bool:
+        # left right  up down
+        # count = 0
+        # direction = {"U": 2, "D": -2, "L": 1, "R": -1}
+        # for m in moves:
+        #     count += direction[m]
+        # return count == 0
+        l,r,u,d = moves.count('L'),moves.count('R'),moves.count('U'), moves.count('D')
+        return l==r and u==d
+
+    # 557. Reverse Words in a String III
+    def reverseWords(self, s: str) -> str:
+        ans = " "
+        return " ".join(word[::-1] for word in s.split(" "))
+            # ans += word[::-1]
+
+    # 929. Unique Email Addresses
+    def numUniqueEmails(self, emails: List[str]) -> int:
+        # def name_email(name, domains):
+        #     dic = {}
+        #     if domains.count(".") != 1 or domains.count('+') != 0:
+        #         return 0
+        #     else:
+        #         domain = domains
+        #     person = name.split("+")
+        #     dic[person[1]] = domain  # person for address
+        person_mail = set()
+        for email in emails:
+            name, domains = email.split("@")
+            local = name.split("+")[0].replace(".", "")
+            person_mail.add(local + "@" + domains)
+        return len(person_mail)
+
 
 
 if __name__ == '__main__':
@@ -68,6 +111,12 @@ if __name__ == '__main__':
     # n = "RLRRLLRLRL"  # 1221
     # n = "Hello"
     # words = ["gin", "zen", "gig", "msg"]  #
-    words = "10#11#12"
-    ans = s.freqAlphabets(words)
+    # words = "10#11#12"
+    # ans = s.freqAlphabets(words)
+    # n = 2
+    # ans = s.generateTheString(n)
+    # ss = "LDRRLRUULR"
+    # n = "Let's take LeetCode contest"
+    l = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
+    ans = s.numUniqueEmails(l)
     print(ans)
