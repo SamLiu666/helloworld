@@ -35,6 +35,7 @@ class MinStack:
         if self.res:
             return self.res[-1][1]
 
+
 # 4/1 -- 4/14
 class solution:
 
@@ -219,6 +220,8 @@ class solution:
         # ans = tail+head
         # return "".join(ans)
 
+
+# 4/15 --
 class solution_3:
 
     # 4/15 Product of Array Except Self
@@ -288,6 +291,26 @@ class solution_3:
         else:
             return abs(l-r) == star
 
+    # 4/17 Number of Islands
+    def numIslands(self, grid: List[List[str]]) -> int:
+        def dfs(grid, i, j):
+            if i<0 or j<0 or i>len(grid) or j >len(grid[0]) or grid[i][j] != "1":
+                return
+            grid[i][j] = '#'
+            dfs(grid, i+1, j)
+            dfs(grid, i-1, j)
+            dfs(grid, i, j+1)
+            dfs(grid, i, j-1)
+
+        if not grid:    return 0
+        count = 0
+        for i in range(len(grid)):
+            for j in range(len(grid[0])):
+                if grid[i][j] == '1':
+                    dfs(grid, i, j)
+                    count += 1
+        return count
+
 
 if __name__ == '__main__':
     # s = solution()
@@ -328,6 +351,8 @@ if __name__ == '__main__':
     s_3 = solution_3()
     # n = [1,2,3,4]   # 4/15
     # ans = s_3.productExceptSelf(n)
-    n = "((*))))" #"(*))"  # 4/16
-    ans = s_3.checkValidString(n)
+    # n = "((*))))" #"(*))"  # 4/16
+    grid = [["1","1","1","1","0"],["1","1","0","1","0"],
+            ["1","1","0","0","0"],["0","0","0","0","0"]]
+    ans = s_3.numIslands(grid)
     print(ans)
