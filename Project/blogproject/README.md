@@ -77,3 +77,11 @@ yangxg@server:$
 
 [获取root权限](https://blog.csdn.net/xy_myy/article/details/81173184?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1&utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1)
 
+```shell
+# 创建虚拟环境
+virtualenv env1
+# 启动虚拟环境
+source bin/activate
+
+```
+

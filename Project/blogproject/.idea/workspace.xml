@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="701ce7c3-431e-4b4f-9c5b-e3e4b91e6fd2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="701ce7c3-431e-4b4f-9c5b-e3e4b91e6fd2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,18 +19,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blogproject/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="128" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="138">
+              <caret line="27" column="52" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="57" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pipfile">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -166,6 +159,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19816643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -178,7 +172,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3773585" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.351752" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -426,13 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogproject/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -443,15 +430,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogproject/settings.py">
+    <entry file="file://$PROJECT_DIR$/Pipfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        <state relative-caret-position="207">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pipfile">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/blogproject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="27" column="52" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="57" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
