@@ -13,7 +13,7 @@
 | 自动生成文章摘要、使用自定义模板标签，分类、归档和标签页     | 2020/4/15 |
 | 微博评论功能,优化博客功能细节，提升使用体验                  | 2020/4/15 |
 | Nginx+Gunicorn+Supervisor 部署 Django 博客应用 https://www.bilibili.com/video/av68020610/ | 2020/4/16 |
-| vmware使用，centos 虚拟机安装，xshell 连接， 部署django环境  |           |
+| vmware使用，centos 虚拟机安装，xshell 连接， 部署django环境--代码 |           |
 
 
 
