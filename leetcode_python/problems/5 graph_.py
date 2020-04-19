@@ -47,10 +47,24 @@ class Solution:
     def regionBySlashes(self, grid:List[str])->int:
         pass
 
+    # 1043. Partition Array for Maximum Sum
+    def maxSumAfterPartitioning(self, A: List[int], K: int) -> int:
+        length = len(A)
+        dp = [0]*length
+
+        for i in range(length):
+            curmax = 0
+            for j in range(1, min(i+1, K)+1):
+                curmax = max(curmax, A[i-j+1])
+                dp[i] = curmax
+        return sum(dp)
+
 
 if __name__ == '__main__':
     s = Solution()
     # N = 4 #3
     # trust = [[1, 3], [1, 4], [2, 3], [2, 4], [4, 3]] # 997. [[1, 3], [2, 3]]
-    lo, hi, k = 12, 15, 2
-    print(s.getKth(12, 15, 2))
+    # lo, hi, k = 12, 15, 2
+    A ,K = [1, 15, 7, 9, 2, 5, 10], 3   # 1043
+    ans = s.maxSumAfterPartitioning(A,K)
+    print(ans)

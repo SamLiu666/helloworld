@@ -311,6 +311,21 @@ class solution_3:
                     count += 1
         return count
 
+    # 4/18
+    def minPathSum(self, grid: List[List[int]]) -> int:
+        col, row = len(grid), len(grid[0])
+        for i in range(col):
+            for j in range(row):
+                if i == 0 and j == 0:
+                    continue
+                elif i == 0:
+                    grid[i][j] += grid[i][j - 1]
+                elif j == 0:
+                    grid[i][j] += grid[i - 1][j]
+                else:
+                    grid[i][j] += min(grid[i][j - 1], grid[i - 1][j])
+        return grid[-1][-1]
+
 
 if __name__ == '__main__':
     # s = solution()
@@ -352,7 +367,12 @@ if __name__ == '__main__':
     # n = [1,2,3,4]   # 4/15
     # ans = s_3.productExceptSelf(n)
     # n = "((*))))" #"(*))"  # 4/16
-    grid = [["1","1","1","1","0"],["1","1","0","1","0"],
-            ["1","1","0","0","0"],["0","0","0","0","0"]]
-    ans = s_3.numIslands(grid)
+    # grid = [["1","1","1","1","0"],["1","1","0","1","0"],
+    #         ["1","1","0","0","0"],["0","0","0","0","0"]]
+    grid = [
+        [1, 3, 1],
+        [1, 5, 1],
+        [4, 2, 1]
+    ]
+    ans = s_3.minPathSum(grid)
     print(ans)

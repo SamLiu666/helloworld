@@ -1,3 +1,4 @@
+import java.util.Random;
 
 class configure{
 
@@ -16,17 +17,23 @@ class configure{
 
 public class Initialize_clean_6 {
     // this 方法，类内部会自动调用，可不写，不过在需要返回时，要明确this，这个实例
-    int i = 0;
+    int i = f();
+    int j = g(i);
 
-    public Initialize_clean_6 increament(){
-        ++i;
-        return this;
+    int f() {
+        return 11;
+    }
+
+    int g(int n) {
+        return n * 10;
     }
 
     public static void main(String[] args){
-        Initialize_clean_6 I0 = new Initialize_clean_6();
-        System.out.println(I0.i);
-        configure c1 = new configure();
-        configure c2 = new configure(2);
+        new Random(47)
+                .ints(5, 20)
+                .distinct()
+                .limit(7)
+                .sorted()
+                .forEach(System.out::println);
     }
 }
