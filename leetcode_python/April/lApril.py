@@ -326,6 +326,28 @@ class solution_3:
                     grid[i][j] += min(grid[i][j - 1], grid[i - 1][j])
         return grid[-1][-1]
 
+    # 4/18
+    def seach(self, nums:List, target:int)->int:
+        start, end = 0, len(nums)-1
+        while start <= end:
+            mid = (start + end) // 2
+
+            if nums[mid] == target:
+                return mid
+
+            if nums[start] < nums[mid]:
+                if nums[start]<= target <= nums[mid]:
+                    end = mid-1
+                else:
+                    start = mid+1
+            else:
+                if nums[mid] <= target <= nums[end]:
+                    start = mid+1
+                else:
+                    end = mid -1
+        return -1
+
+
 
 if __name__ == '__main__':
     # s = solution()
@@ -369,10 +391,11 @@ if __name__ == '__main__':
     # n = "((*))))" #"(*))"  # 4/16
     # grid = [["1","1","1","1","0"],["1","1","0","1","0"],
     #         ["1","1","0","0","0"],["0","0","0","0","0"]]
-    grid = [
-        [1, 3, 1],
-        [1, 5, 1],
-        [4, 2, 1]
-    ]
-    ans = s_3.minPathSum(grid)
+    # grid = [
+    #     [1, 3, 1],
+    #     [1, 5, 1],
+    #     [4, 2, 1]
+    # ]
+    nums = [4, 5, 6, 7, 0, 1, 2]
+    ans = s_3.seach(nums, 0)
     print(ans)

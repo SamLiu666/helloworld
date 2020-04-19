@@ -38,7 +38,7 @@ class Learning_Window(tk.Tk):
 
         #设定每次学习时间
         global design_interval
-        design_interval = tk.Spinbox(self, from_=30, to=60, increment=15)
+        design_interval = tk.Spinbox(self, from_=45, to=100, increment=5)
         design_interval.pack(padx=0, pady=10)
         # 设定学习时间按钮 2
         # global entry
