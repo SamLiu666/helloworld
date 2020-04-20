@@ -1,3 +1,4 @@
+import bisect
 import heapq
 from typing import List
 from collections import Counter
@@ -222,6 +223,10 @@ class solution:
 
 
 # 4/15 --
+class TreeNode(object):
+    pass
+
+
 class solution_3:
 
     # 4/15 Product of Array Except Self
@@ -346,7 +351,42 @@ class solution_3:
                 else:
                     end = mid -1
         return -1
+    
+    # 4/19
+    def search(self, nums: List[int], target: int) -> int:
+        if not nums:
+            return -1
 
+        low, high = 0, len(nums) - 1
+
+        while low <= high:
+            mid = (low + high) // 2
+            if target == nums[mid]:
+                return mid
+
+            if nums[low] <= nums[mid]:
+                if nums[low] <= target <= nums[mid]:
+                    high = mid - 1
+                else:
+                    low = mid + 1
+            else:
+                if nums[mid] <= target <= nums[high]:
+                    low = mid + 1
+                else:
+                    high = mid - 1
+
+        return -1
+
+    # 4/20
+    def bstFromPreorder(self, A: List[int]) -> TreeNode:
+        def helper(i, j):
+            if i == j: return None
+            root = TreeNode(A[i])
+            mid = bisect.bisect(A, A[i], i + 1, j)
+            root.left = helper(i + 1, mid)
+            root.right = helper(mid, j)
+            return root
+        return helper(0, len(A))
 
 
 if __name__ == '__main__':
