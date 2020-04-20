@@ -18,7 +18,7 @@ class Learning_Window(tk.Tk):
         self.create_window()    # 1.创建窗口
         self.show_picture()     # 2.显示图片
         self.button_design()    # 3.学习按钮 单击启动学习
-        # self.get_int()          # 4.获取学习设定次数
+        # self.get_int()        # 4.获取学习设定次数
         self.mainloop()         # 窗口循环保持运行
 
     # 1. 窗口外观尺寸设计
