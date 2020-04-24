@@ -222,11 +222,11 @@ class solution:
         # return "".join(ans)
 
 
-# 4/15 --
+
 class TreeNode(object):
     pass
 
-
+# 4/15 - 4/21
 class solution_3:
 
     # 4/15 Product of Array Except Self
@@ -390,6 +390,27 @@ class solution_3:
 
     # 4/21
 
+# 4/22 -4/31
+class solution_4:
+    def subarraySum(self, nums: List[int], k: int) -> int:
+        sums = {0:1}
+        res = s = 0
+        for n in nums:
+            s += n
+            res += sums.get(s-k, 0)
+            sums[s] = sums.get(s, 0) + 1
+        return res
+
+    # 4/23
+    def rangeBitwiseAnd(self, m, n):
+        i = 0
+        while m != n:
+            m >>= 1
+            n >>= 1
+            i += 1
+        return n << i
+
+
 if __name__ == '__main__':
     # s = solution()
     # nums =  [2,2,1]
@@ -426,7 +447,7 @@ if __name__ == '__main__':
     # ans = s.stringShift(ss,shift1)
     # print(ans)
     # # print(ans1)
-    s_3 = solution_3()
+    # s_3 = solution_3()
     # n = [1,2,3,4]   # 4/15
     # ans = s_3.productExceptSelf(n)
     # n = "((*))))" #"(*))"  # 4/16
@@ -437,6 +458,10 @@ if __name__ == '__main__':
     #     [1, 5, 1],
     #     [4, 2, 1]
     # ]
-    nums = [4, 5, 6, 7, 0, 1, 2]
-    ans = s_3.seach(nums, 0)
+    # nums = [4, 5, 6, 7, 0, 1, 2]
+    # ans = s_3.seach(nums, 0)
+    ss = solution_4()
+    nums = [1, 1, 1]
+    k = 2
+    ans = ss.subarraySum(nums, k)
     print(ans)
