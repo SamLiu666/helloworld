@@ -410,6 +410,12 @@ class solution_4:
             i += 1
         return n << i
 
+    # 4/24
+
+    # 4/25
+
+    # 4/26-- 4/31
+
 
 if __name__ == '__main__':
     # s = solution()
