@@ -1,3 +1,7 @@
+---
+
+---
+
 # 项目
 
 根据教程，建立一个博客，实现发布文章，记录标签，日期，可以评论等功能
@@ -84,4 +88,28 @@ virtualenv env1
 source bin/activate
 
 ```
+
+# Django，Nginx和uWSGI
+
+## Nginx
+
+[介绍](https://zhuanlan.zhihu.com/p/34943332) [介绍](https://juejin.im/post/5e982d4b51882573b0474c07)
+
+**定义** 轻量级的Web服务器，反向代理服务器，内存少，启动快，高并发能力强
+
+反向代理服务器： 
+
+**Master: 读取并验证配置文件nginx.conf；管理worker进程；**
+
+**Worker: 每一个Worker进程都维护一个线程（避免线程切换），处理连接和请求；注意Worker进程的个数由配置文件决定，一般和CPU个数相关（有利于进程切换），配置几个就有几个Worker进程**
+
+Django是一个开放源代码的Web应用框架，由Python写成。Django不是一个服务器，只是一个Web的应用框架。
+
+WSGI是一个Web服务器，它实现了WSGI协议、uwsgi、http等协议。用于连接Web服务器和Web应用框架。
+
+![原理](https://img-blog.csdn.net/20181008155327375?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lpbG92ZXhpbmc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
+[配置过程](https://blog.csdn.net/yilovexing/article/details/82969103?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-2)
+
+
 
