@@ -19,20 +19,20 @@ Language: ***Java***
 
 ## [Java](https://github.com/SamLiu666/CS-learning-Notes/tree/master/Java)
 
-** Java Basic learning **
+Java Basic learning 
 
-** Spring Boot project**
+Spring Boot project
 
-** Leetcode_datastructure_java **
-
+Leetcode_datastructure_java
 
 ## [Machine Learning](https://github.com/SamLiu666/CS-learning-Notes/tree/master/MachineLearning)
 
-
 ## [Python](https://github.com/SamLiu666/CS-learning-Notes/tree/master/python)
+
 ### [Algorithm_leetcode](https://github.com/SamLiu666/CS-learning-Notes/tree/master/python/algorithm_leetcode)
 
 ### [Django](https://github.com/SamLiu666/CS-learning-Notes/tree/master/python/Django_tutorial)
+
 **Web developer framework is powerful. This part is recording how to learning it.**
 
 ### [MySQL](https://github.com/SamLiu666/CS-learning-Notes/tree/master/python/MySQL)
