@@ -1,3 +1,13 @@
+# Recursion
+
+哈希表：存储数据，优化计算
+
+尾调用：返回递归函数，优化空间（C++ C， JAVA, PYTHON没有优化）
+
+1. 有疑问时，写下递归关系
+2. 重复计算，使用哈希存储记忆。**memoization**
+3. 栈溢出，尾调用可尝试， **tail recursion**
+
 # Median
 
 ## 48. Rotate Image
