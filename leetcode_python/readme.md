@@ -1,3 +1,5 @@
+https://github.com/TheAlgorithms  算法
+
 # Recursion
 
 哈希表：存储数据，优化计算
@@ -7,6 +9,14 @@
 1. 有疑问时，写下递归关系
 2. 重复计算，使用哈希存储记忆。**memoization**
 3. 栈溢出，尾调用可尝试， **tail recursion**
+
+## 分治 Divide and Conquer
+
+经典算法：归并和快排， 分治算法伪代码， 大师定理（master  theorem）
+
+## 回溯 backt rack
+
+经典：**N-queens** **Sudoku problem**
 
 # Median
 
@@ -19,6 +29,23 @@ matrix -> Inverse -> symmetry
 
 
 # Tree
+
+先序 preorder：根左右
+
+中序 inorder：左中右
+
+后序 postorder：左右根
+
+```python
+def preorder(root):
+  return [root.val] + preorder(root.left) + preorder(root.right) if root else []
+def inorder(root):
+  return  inorder(root.left) + [root.val] + inorder(root.right) if root else []
+def postorder(root):
+  return  postorder(root.left) + postorder(root.right) + [root.val] if root else []
+```
+
+
 
 # Binary search
 
