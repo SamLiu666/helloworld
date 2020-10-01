@@ -29,17 +29,10 @@ def parse(soup, all_lists, number):
             print(number, name, address, comment, amount, lowestprice)
             #print("done")
             all_lists.append(goods)
-            EXCEL_PATH = '酒店信息1.xlsx'
-            df = pd.DataFrame(all_lists)
-            writer = pd.ExcelWriter(EXCEL_PATH)
-            df.to_excel(excel_writer=writer, columns=['序号', '酒店名称', '地址', '评价', '点评数', '价格'], index=False,
-                        encoding='utf-8', sheet_name='Sheet')
-            writer.save()
-            # writer.close()
-        return True
+        return True,all_lists,number
     else:
         print("No message Find")
-        return False
+        return False,all_lists,number
 
 def write_csv(all_lists):
     EXCEL_PATH = '酒店信息1.xlsx'
@@ -53,21 +46,26 @@ def write_csv(all_lists):
 driver = webdriver.Chrome()  # 初始化一个浏览器对象
 url = "https://hotel.qunar.com/cn/foshan/?fromDate=2020-09-30&toDate=2020-10-01&cityName=%E4%BD%9B%E5%B1%B1"
 driver.get(url)
-number = 1
+number = 0
 page_num = 1
 
 all_lists = []
 ### for
-for i in range(100):
+for i in range(5):
     time.sleep(3)
     html = driver.page_source
     soup = BeautifulSoup(html, 'html.parser')  # 从网页提取数据
     print("Page Number: ", page_num)
     if html:
         # 解析网页
-        flag = parse(soup, all_lists, number)
+        flag, record, count = parse(soup, all_lists, number)
         # 点击下一页
         if flag:
+            number = count
+
+            # 加一个读写判断
+            df_refe = pd.read_excel('酒店信息1.xlsx')
+            write_csv(all_lists)  # 写入文件
             next_str = "//p[@class='next fl_right cur able']"
             btns = driver.find_elements_by_xpath(next_str)
             for a in btns:
